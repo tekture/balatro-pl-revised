@@ -77,9 +77,8 @@ return {
             j_stone = {
                 name = "Kamienny Joker",
                 text = {
-                    "Gdy karta {C:attention}Kamień zostanie",
-                    "zagrana, na stałe",
-                    "daje {C:chips}+#1#{} żet.",
+                    "Zyskuje {C:chips}+#1#{} żet.",
+                    "za każdą zagraną kartę {C:attention}kamienną",
                     "{C:inactive}(obecnie {C:chips}+#2#{C:inactive} żet.)"
                 }
             },
@@ -956,7 +955,7 @@ return {
                     "{C:attention}jokera najbardziej wysuniętego na lewo"
                 },
                 unlock = {
-                    "Odrzuca",
+                    "Odrzuć",
                     "{E:1,C:attention}pokera królewskiego"
                 }
             },
@@ -2545,7 +2544,7 @@ return {
                 name = "Hak",
                 text = {
                     "Odrzuca 2 losowe",
-                    "karty za rozegraną rękę"
+                    "karty na rozegraną rękę"
                 }
             },
             bl_wall = {
@@ -2797,8 +2796,7 @@ return {
                 name = "Porzucona talia",
                 text = {
                     "Rozpoczynasz podejście",
-                    "bez żadnych {C:attention}figur karcianych",
-                    "w swojej talii"
+                    "bez żadnych {C:attention}figur karcianych"
                 }
             },
             b_checkered = {
@@ -2817,10 +2815,10 @@ return {
                 }
             },
             b_braided = {
-                name = "Spleciona talia",
+                name = "Pleciona talia",
                 text = {
                     "Pierwszy zagrany układ",
-                    "zostaje ulepszona do {C:attention}poz. 3"
+                    "zostaje ulepszony do {C:attention}poz. 3"
                 }
             },
             b_anaglyph = {
@@ -2863,7 +2861,7 @@ return {
                 }
             },
             b_zodiac = {
-                name = "Talia Znaków zodiaku",
+                name = "Talia Zodiak",
                 text = {
                     "Rozpoczynasz podejście z kuponami",
                     "{C:tarot,T:v_tarot_merchant}#1#{},",
@@ -2972,14 +2970,14 @@ return {
                 text = {}
             },
             debuffed_default = {
-                name = "Osłabiono",
+                name = "Osłabiona",
                 text = {
                     "Wszystkie zdolności",
                     "są wyłączone"
                 }
             },
             debuffed_playing_card = {
-                name = "Osłabiono",
+                name = "Osłabiona",
                 text = {
                     "Brak zdobywania żetonów,",
                     "wszystkie zdolności",
@@ -3010,7 +3008,7 @@ return {
                 }
             },
             deck_locked_win = {
-                name = "Zablokowane",
+                name = "Zablokowana",
                 text = {
                     "Wygraj podejście używając:",
                     "{C:attention}#1#{}",
@@ -3018,7 +3016,7 @@ return {
                 }
             },
             deck_locked_discover = {
-                name = "Zablokowane",
+                name = "Zablokowana",
                 text = {
                     "Odkryj przynajmniej",
                     "{C:attention}#1#{} przedm. ze",
@@ -3026,7 +3024,7 @@ return {
                 }
             },
             deck_locked_stake = {
-                name = "Zablokowane",
+                name = "Zablokowana",
                 text = {
                     "Wygraj podejście dowolną",
                     "talią na poz. trudności:",
@@ -3034,7 +3032,7 @@ return {
                 }
             },
             joker_locked_legendary = {
-                name = "Zablokowane",
+                name = "Zablokowana",
                 text = {
                     "Znajdź tego jokera",
                     "za pomocą karty {C:spectral}Duszy{}"
@@ -3253,14 +3251,14 @@ return {
                 }
             },
             eternal = {
-                name = "Wieczny",
+                name = "Wieczna",
                 text = {
                     "Nie można jej sprzedać",
                     "ani zniszczyć"
                 }
             },
             challenge_locked = {
-                name = "Zablokowany",
+                name = "Zablokowane",
                 text = {
                     "Wygraj podejście z co najmniej",
                     "#1# różnymi taliami, aby odblokować",
@@ -3528,9 +3526,9 @@ return {
             k_spectral = "Karta Widmo",
             k_booster = "Pakiet",
             k_edition = "Wariant",
-            k_hud_hands = "Ręce",
+            k_hud_hands = "Zagrania",
             k_hud_discards = "Zrzutki",
-            k_lower_score = "wynik",
+            k_lower_score = "wynik cząst.",
             k_arcana_pack = "Pakiet Arkana",
             k_celestial_pack = "Pakiet Gwiezdny",
             k_spectral_pack = "Pakiet kart Widmo",
@@ -3688,7 +3686,7 @@ return {
             b_copy = "Kopiuj",
             b_high_contrast_cards = "Karty o wysokim kontraście",
             b_set_rumble = "Wibracje kontrolera",
-            b_seals = "Pieczęci",
+            b_seals = "Pieczęcie",
             b_new_challenge = "Rozpocznij nowe wyzwanie",
             b_unlock_all = "Odblokuj wszystko",
             k_active = "aktywny",
@@ -3700,7 +3698,7 @@ return {
             k_enter_name = "Wprowadź nazwę",
             k_gold = "Złoto",
             k_card_stats = "Statystyki kart",
-            k_view = "Zobacz",
+            k_view = "Podgląd",
             k_all_hands = "Wszystkie ręce",
             k_high_score_ex = "Nowy rekord!",
             k_demo_version_ex = "Wersja demo!",
