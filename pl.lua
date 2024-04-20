@@ -334,7 +334,7 @@ return {
                 text = {
                     "Mnożnik rośnie o tyle, ile razy dany",
                     "{C:attention}układ pokerowy{} został rozegrany",
-                    "podczas rundy"
+                    "od początku podejścia"
                 }
             },
             j_ride_the_bus = {
@@ -837,7 +837,7 @@ return {
                 }
             },
             j_order = {
-                name = "Porządek",
+                name = "Zakon",
                 text = {
                     "Mnoż. {X:mult,C:white} X#1# {}, jeśli wśród",
                     "zagranych kart występuje",
@@ -872,7 +872,7 @@ return {
                 }
             },
             j_card_sharp = {
-                name = "Ostra karta",
+                name = "Oszust karciany",
                 text = {
                     "Mnoż. {X:mult,C:white} X#1# {}, jeśli zagrany",
                     "{C:attention}układ pokerowy{} został już",
@@ -1047,11 +1047,10 @@ return {
                 }
             },
             j_caino = {
-                name = "Caino",
+                name = "Canio",
                 text = {
-                    "Mnoż {X:mult,C:white} X#1# {} przy",
-                    "zniszczeniu",
-                    "{C:attention}figury{} karcianej",
+                    "Zyskuje {X:mult,C:white} X#1# {} do mnoż. przy",
+                    "zniszczeniu {C:attention}figury{} karcianej",
                     "{C:inactive}(obecnie mnoż. {X:mult,C:white} X#2# {C:inactive})"
                 },
                 unlock = {
@@ -3324,7 +3323,7 @@ return {
             poker_hand = "Ulubione zagranie"
         },
         poker_hands = {
-            ['Flush House'] = "Garnitur koloru",
+            ['Flush House'] = "Kolorowy ful",
             ['Five of a Kind'] = "Piątka",
             ['Royal Flush'] = "Poker królewski",
             ['Straight Flush'] = "Poker",
