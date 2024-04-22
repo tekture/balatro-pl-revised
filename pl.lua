@@ -226,7 +226,7 @@ return {
             j_chaos = {
                 name = "Pan Chaotyczny",
                 text = {
-                    "{C:attention}#1#{} darmowy ponowny {C:green}rzut",
+                    "{C:attention}#1#{}x darmowych {C:green}przelosowań",
                     "na wizytę w sklepie"
                 }
             },
@@ -247,7 +247,7 @@ return {
                 }
             },
             j_scary_face = {
-                name = "Straszna Twarz",
+                name = "Straszna Mina",
                 text = {
                     "{C:attention}Figury karciane{}",
                     "dają {C:chips}+#1#{} żet.",
@@ -618,7 +618,7 @@ return {
                 }
             },
             j_bloodstone = {
-                name = "Krwawy kamień",
+                name = "Heliotrop",
                 text = {
                     "{C:green}#1#/#2#{} szans na",
                     "mnoż. {X:mult,C:white} X#3# {} przy zagraniu",
@@ -645,7 +645,7 @@ return {
                 }
             },
             j_onyx_agate = {
-                name = "Agat onyksowy",
+                name = "Agat i onyks",
                 text = {
                     "Mnoż. {C:mult}+#1#{} za każdą",
                     "zagraną kartę w",
@@ -824,7 +824,7 @@ return {
                 }
             },
             j_family = {
-                name = "Rodzinka",
+                name = "Ród",
                 text = {
                     "Mnoż. {X:mult,C:white} X#1# {}, jeśli wśród",
                     "zagranych kart występuje",
@@ -1334,7 +1334,7 @@ return {
             j_flash = {
                 name = "Fiszka",
                 text = {
-                    "Mnoż. {C:mult}X#1#{} za każde",
+                    "Mnoż. {C:mult}+#1#{} za każde",
                     "{C:attention}przelosowanie oferty{} w sklepie",
                     "{C:inactive}(obecny mnoż. {C:mult}+#2#{C:inactive})"
                 }
@@ -1432,21 +1432,21 @@ return {
                 }
             },
             v_tarot_merchant = {
-                name = "Handlarz kart Tarota",
+                name = "Tarotowy kupczyk",
                 text = {
                     "Karty {C:tarot}Tarota{} pojawiają się",
                     "{C:attention}#1#X{} częściej w sklepie"
                 }
             },
             v_planet_merchant = {
-                name = "Handlarz kart Planet",
+                name = "Planetowy kupczyk",
                 text = {
                     "Karty {C:planet}Planet{} pojawiają się",
                     "{C:attention}#1#X{} częściej w sklepie"
                 }
             },
             v_hone = {
-                name = "Udoskonalenie",
+                name = "Szlif",
                 text = {
                     "Karty {C:dark_edition}w folii{}, {C:dark_edition}hologramy{} oraz",
                     "{C:dark_edition}połyskujące{}",
@@ -1454,9 +1454,9 @@ return {
                 }
             },
             v_reroll_surplus = {
-                name = "Mniej za ponowny rzut",
+                name = "Rzuty na zbyciu",
                 text = {
-                    "Ponowne rzuty kosztują",
+                    "Przelosowania kosztują",
                     "{C:money}#1#${} mniej"
                 }
             },
@@ -1597,19 +1597,19 @@ return {
                 }
             },
             v_reroll_glut = {
-                name = "Przesyt przerzutów",
+                name = "Przesyt przelosowań",
                 text = {
-                    "Ponowne rzuty kosztują",
+                    "Przelosowania sklepu kosztują",
                     "{C:money}#1#${} mniej"
                 },
                 unlock = {
-                    "Wykonaj ponowny rzut w sklepie",
+                    "Przelosuj sklep",
                     "łącznie {C:attention}#1#{} razy",
                     "{C:inactive}(#2#)"
                 }
             },
             v_omen_globe = {
-                name = "Kula Omen",
+                name = "Omen",
                 text = {
                     "Karty {C:spectral}Widmo{} mogą",
                     "pojawić się w dowolnych",
@@ -1623,7 +1623,7 @@ return {
                 }
             },
             v_observatory = {
-                name = "Obserwatorium astronomiczne",
+                name = "Obserwatorium",
                 text = {
                     "Karty {C:planet}Planety{} w",
                     "obszarze przedm. {C:attention}zużywalnych{} dają",
@@ -1662,7 +1662,7 @@ return {
                 }
             },
             v_money_tree = {
-                name = "Drzewko pieniężne",
+                name = "Drzewko z pieniędzmi",
                 text = {
                     "Podnosi limit",
                     "zarobionych odsetek",
@@ -2065,7 +2065,7 @@ return {
                 }
             },
             c_incantation = {
-                name = "Inkantacja",
+                name = "Zaklęcie",
                 text = {
                     "Niszczy {C:attention}1{} losową",
                     "kartę w twojej ręce, dodaje {C:attention}#1#x",
@@ -2487,7 +2487,7 @@ return {
             tag_d_six = {
                 name = "Pin K6",
                 text = {
-                    "Ponowne rzuty podczas",
+                    "Przelosowania podczas",
                     "następnej wizyty w sklepie",
                     "zaczynają się od {C:money}0$"
                 }
@@ -2984,14 +2984,14 @@ return {
                 }
             },
             demo_locked = {
-                name = "Zablokowane",
+                name = "Zablokowana",
                 text = {
                     "Brak dostępu",
                     "w tym demie"
                 }
             },
             demo_shop_locked = {
-                name = "Zablokowane",
+                name = "Zablokowana",
                 text = {
                     "Karta z osobistej {C:attention}kolekcji",
                     "{C:attention}Jimbo,",
@@ -3290,11 +3290,11 @@ return {
         },
         blind_states = {
             Select = "Wybierz",
-            Skipped = "Pominięto",
+            Skipped = "Pominięty",
             Current = "Bieżący",
-            Defeated = "Pokonano",
+            Defeated = "Pokonany",
             Upcoming = "Wkrótce",
-            Selected = "Wybrano"
+            Selected = "Wybrany"
         },
         ranks = {
             Ace = "As",
@@ -3312,7 +3312,7 @@ return {
             ['2'] = "Dwójka"
         },
         high_scores = {
-            hand = "Najlepsza ręka",
+            hand = "Najlepsze zagranie",
             furthest_round = "Najwyższa runda",
             furthest_ante = "Najwyższe wejście",
             most_money = "Najwięcej pieniędzy",
@@ -3387,10 +3387,10 @@ return {
             }
         },
         labels = {
-            common = "Pospolita",
-            uncommon = "Niepospolita",
-            rare = "Rzadka",
-            legendary = "Legendarna",
+            common = "Pospolity",
+            uncommon = "Niepospolity",
+            rare = "Rzadki",
+            legendary = "Legendarny",
             tarot = "Tarot",
             planet = "Planeta",
             pluto_planet = "Planeta karłowata",
@@ -3440,17 +3440,17 @@ return {
             b_set_graphics = "Grafika",
             b_set_audio = "Dźwięk",
             b_set_gamespeed = "Prędkość gry",
-            b_set_play_discard_pos = "Pozycja przycisku Zagraj/Odrzuć",
+            b_set_play_discard_pos = "Pozycja przycisków Zagraj/Odrzuć",
             b_set_screenshake = "Wstrząsanie ekranem",
             b_set_crash_reports = "Raporty o błędach",
             b_set_monitor = "Monitor",
-            b_set_windowmode = "Tryb okienkowy",
+            b_set_windowmode = "Tryb wyświetlania",
             b_set_apply = "Zastosuj",
             b_set_master_vol = "Głośność ogólna",
             b_set_music_vol = "Głośność muzyki",
             b_set_game_vol = "Głośność efektów",
             b_set_shadows = "Cienie",
-            b_set_pixel_smoothing = "Wygładzanie grafiki pikselowej",
+            b_set_pixel_smoothing = "Wygładzanie pikseli",
             b_set_CRT = "Efekt monitora CRT",
             b_set_CRT_bloom = "Efekt poświaty CRT",
             b_stat_jokers = "Jokery",
@@ -3521,7 +3521,7 @@ return {
             k_tarot = "Tarot",
             k_planet = "Planeta",
             k_dwarf_planet = "Planeta karłowata",
-            k_planet_q = "Karta Planeta?",
+            k_planet_q = "Planeta?",
             k_spectral = "Karta Widmo",
             k_booster = "Pakiet",
             k_edition = "Wariant",
@@ -3715,7 +3715,7 @@ return {
             ph_score_new_collection = "Nowe odkrycia",
             ph_score_cards_played = "Zagrane karty",
             ph_score_cards_discarded = "Odrzucone karty",
-            ph_score_times_rerolled = "Ponowne rzuty",
+            ph_score_times_rerolled = "Przelosowania sklepu",
             ph_score_cards_purchased = "Kupione karty",
             ml_edition_seal_enhancement_explanation = {
                 "Karty rozgrywające mają warianty,",
@@ -3798,7 +3798,7 @@ return {
                 "{C:red}#1#{} zrzutek na rundę"
             },
             ch_m_reroll_cost = {
-                "Bazowy koszt ponownego rzutu: {C:money}#1#${}"
+                "Bazowy koszt przelosowania: {C:money}#1#${}"
             },
             ch_m_joker_slots = {
                 "{C:attention}#1#{} slotów na jokery"
@@ -4082,7 +4082,7 @@ return {
             _100000k = "Zdobądź 100 000 000 żetonów z pojedynczej ręki",
             tiny_hands = "Odchudź talię do 20 kart lub mniej",
             big_hands = "Posiadaj w swojej talii 80 kart lub więcej",
-            you_get_what_you_get = "Wygraj podejście bez ponownego rzutu podczas wizyty w sklepie",
+            you_get_what_you_get = "Wygraj podejście bez przelosowania podczas wizyty w sklepie",
             rule_bender = "Ukończ dowolne podejście-wyzwanie",
             rule_breaker = "Ukończ każde podejście-wyzwanie",
             legendary = "Odkryj Legendarnego Jokera",
