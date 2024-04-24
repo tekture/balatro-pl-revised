@@ -99,7 +99,7 @@ return {
                 }
             },
             j_four_fingers = {
-                name = "Cztery Palce",
+                name = "Cztery palce",
                 text = {
                     "Wszystkie {C:attention}kolory{} i",
                     "{C:attention}strity{} można",
@@ -154,7 +154,7 @@ return {
                 }
             },
             j_ceremonial = {
-                name = "Sztylet Rytualny",
+                name = "Sztylet rytualny",
                 text = {
                     "Po wybraniu {C:attention}zakładu{},",
                     "niszczy jokera po prawej",
@@ -172,7 +172,7 @@ return {
                 }
             },
             j_mystic_summit = {
-                name = "Mistyczny Szczyt",
+                name = "Mistyczny szczyt",
                 text = {
                     "Mnoż. {C:mult}+#1#{}, gdy",
                     "pozostaje {C:attention}#2#{} zrzutek"
@@ -186,7 +186,7 @@ return {
                 }
             },
             j_loyalty_card = {
-                name = "Karta Lojalnościowa",
+                name = "Karta lojalnościowa",
                 text = {
                     "Mnoż. {X:red,C:white} X#1# {} co",
                     "{C:attention}#2#{} rozegranych układów",
@@ -194,7 +194,7 @@ return {
                 }
             },
             j_8_ball = {
-                name = "Bila 8",
+                name = "Bila nr 8",
                 text = {
                     "Tworzy kartę {C:planet}Planety{},",
                     "jeśli zagrany układ zawiera",
@@ -217,7 +217,7 @@ return {
                 }
             },
             j_raised_fist = {
-                name = "Uniesiona Pięść",
+                name = "Wzniesiona pięść",
                 text = {
                     "Dodaje {C:attention}podwojoną{} rangę {C:attention}najsłabszej{}",
                     "trzymanej w ręce karty do mnoż."
@@ -247,7 +247,7 @@ return {
                 }
             },
             j_scary_face = {
-                name = "Straszna Mina",
+                name = "Straszna mina",
                 text = {
                     "{C:attention}Figury karciane{}",
                     "dają {C:chips}+#1#{} żet.",
@@ -497,7 +497,7 @@ return {
                     "jeśli punkty z żetonów",
                     "stanowią przynajmniej {C:attention}25%",
                     "wymaganych żetonów",
-                    "{S:1.1,C:red,E:2}Ulega samozniszczeniu{}"
+                    "i {S:1.1,C:red,E:2}ulega samozniszczeniu{}"
                 },
                 unlock = {
                     "Przegrywasz {C:attention,E:1}#1#{} podejść",
@@ -507,8 +507,8 @@ return {
             j_acrobat = {
                 name = "Akrobata",
                 text = {
-                    "Mnoż. {X:red,C:white} X#1# {} w ostatniej",
-                    "{C:attention}ręce{} rundy"
+                    "Mnoż. {X:red,C:white} X#1# {} w ostatnim",
+                    "{C:attention}zagraniu{} rundy"
                 },
                 unlock = {
                     "Zagraj {C:attention,E:1}#1#{} kart",
@@ -519,7 +519,7 @@ return {
                 name = "Maski teatralne",
                 text = {
                     "Aktywuje dwukrotnie wszystkie",
-                    "{C:attention}figury{} karciane przy zagraniu"
+                    "zagrane {C:attention}figury karciane{}"
                 },
                 unlock = {
                     "Zagraj łącznie",
@@ -605,7 +605,7 @@ return {
                 }
             },
             j_rough_gem = {
-                name = "Nieoszlifowany klejnot",
+                name = "Skruszony diament",
                 text = {
                     "{C:money}+$#1#{} za zagraną,",
                     "zdobywającą punkty kartę",
@@ -676,7 +676,7 @@ return {
                 text = {
                     "{C:attention}Jokery{}, karty {C:tarot}Tarota{}, karty {C:planet}Planet{}",
                     "oraz karty {C:spectral}Widmo{} mogą",
-                    "pojawić się wielokrotnie"
+                    "pojawiać się wielokrotnie"
                 },
                 unlock = {
                     "Osiągnij stawkę",
@@ -784,7 +784,7 @@ return {
                 }
             },
             j_hit_the_road = {
-                name = "W drogę",
+                name = "Komu w drogę...",
                 text = {
                     "Mnoż. {X:mult,C:white} X#1# {}",
                     "za każdego odrzuconego",
@@ -917,7 +917,7 @@ return {
             j_riff_raff = {
                 name = "Motłoch",
                 text = {
-                    "Po wybraniu {C:attention}zakładu{},",
+                    "Po wybraniu {C:attention}zakładu{}",
                     "otrzymujesz {C:attention}#1#x {C:blue}zwykłego{C:attention} jokera",
                     "{C:inactive}(wymaga miejsca)"
                 }
@@ -973,7 +973,7 @@ return {
                 }
             },
             j_shoot_the_moon = {
-                name = "Mierz w Księżyc",
+                name = "Hetmanka",
                 text = {
                     "Mnoż. {C:mult}+#1#{} za",
                     "każdą {C:attention}damę{}",
@@ -1151,7 +1151,7 @@ return {
                 }
             },
             j_shortcut = {
-                name = "Skrót",
+                name = "Na skróty",
                 text = {
                     "Pozwala ułożyć {C:attention}strity{}",
                     "używając luk o randze {C:attention}1",
@@ -1162,8 +1162,8 @@ return {
                 name = "Hologram",
                 text = {
                     "Zyskuje mnoż. {X:mult,C:white} X#1# {}",
-                    "na każdą {C:attention}kartę rozgrywającą{} dodaną",
-                    "do swojej talii",
+                    "gdy {C:attention}karta rozgrywająca{} zostaje",
+                    "dodana do twojej talii",
                     "{C:inactive}(obecnie mnoż. {X:mult,C:white} X#2# {C:inactive})"
                 }
             },
@@ -1184,7 +1184,7 @@ return {
                 }
             },
             j_cloud_9 = {
-                name = "Dziewiątka z nieba",
+                name = "Dziewiąte niebo",
                 text = {
                     "Otrzymujesz {C:money}$#1#{} za każdą",
                     "{C:attention}9{} w {C:attention}kompletnej talii",
@@ -1275,7 +1275,7 @@ return {
                 }
             },
             j_to_the_moon = {
-                name = "Na Księżyc",
+                name = "Na księżyc",
                 text = {
                     "Zdobywasz bonusowe {C:money}$#1#{}",
                     "{C:attention}odsetki{} za każde {C:money}$5{}, które",
@@ -1399,7 +1399,7 @@ return {
                 }
             },
             j_smiley = {
-                name = "Uśmiechnięta buzia",
+                name = "Uśmiechnięta buźka",
                 text = {
                     "Zagrane {C:attention}figury{} karciane",
                     "dają mnoż. {C:mult}+#1#{}",
@@ -1435,14 +1435,14 @@ return {
                 name = "Tarotowy kupczyk",
                 text = {
                     "Karty {C:tarot}Tarota{} pojawiają się",
-                    "{C:attention}#1#X{} częściej w sklepie"
+                    "w sklepie {C:attention}#1#X{} częściej"
                 }
             },
             v_planet_merchant = {
                 name = "Planetowy kupczyk",
                 text = {
                     "Karty {C:planet}Planet{} pojawiają się",
-                    "{C:attention}#1#X{} częściej w sklepie"
+                    "w sklepie {C:attention}#1#X{} częściej"
                 }
             },
             v_hone = {
@@ -1493,12 +1493,12 @@ return {
                 name = "Kapitał zakładowy",
                 text = {
                     "Podnosi limit",
-                    "zarobionych odsetek",
-                    "na rundę do {C:money}#1#${}"
+                    "zarabianych odsetek",
+                    "do {C:money}#1#${} na rundę"
                 }
             },
             v_blank = {
-                name = "In-blanco",
+                name = "Mydło",
                 text = {
                     "{C:inactive}Nie robi nic?"
                 }
@@ -1562,7 +1562,7 @@ return {
                 name = "Tarotowy magnat",
                 text = {
                     "Karty {C:tarot}Tarota{} pojawiają się",
-                    "{C:attention}#1#X{} częściej w sklepie"
+                    "w sklepie {C:attention}#1#X{} częściej"
                 },
                 unlock = {
                     "Kup łącznie",
@@ -1574,7 +1574,7 @@ return {
                 name = "Planetowy magnat",
                 text = {
                     "Karty {C:planet}Planet{} pojawiają się",
-                    "{C:attention}#1#X{} częściej w sklepie"
+                    "w sklepie {C:attention}#1#X{} częściej"
                 },
                 unlock = {
                     "Kup łącznie",
@@ -1638,7 +1638,7 @@ return {
                 }
             },
             v_nacho_tong = {
-                name = "Nacho Tong",
+                name = "Tłuste palce",
                 text = {
                     "Zyskujesz na stałe",
                     "{C:blue}+#1#{} zagrań"
@@ -1665,12 +1665,12 @@ return {
                 name = "Drzewko z pieniędzmi",
                 text = {
                     "Podnosi limit",
-                    "zarobionych odsetek",
-                    "na rundę do {C:money}#1#${}"
+                    "zarabianych odsetek",
+                    "do {C:money}#1#${} na rundę"
                 },
                 unlock = {
-                    "Zwiększ maksymalnie zyski",
-                    "z odsetek na rundę przez",
+                    "Zarób maksymalne zyski",
+                    "z odsetek przez",
                     "{C:attention}#1#{} rund z rzędu",
                     "{C:inactive}(#2#)"
                 }
@@ -1681,7 +1681,7 @@ return {
                     "{C:dark_edition}+1{} slot na jokera"
                 },
                 unlock = {
-                    "Wykorzystaj {C:voucher}In-blanco{}",
+                    "Wykorzystaj kupon {C:voucher}Mydło{}",
                     "łącznie {C:attention}#1#{} razy",
                     "{C:inactive}(#2#)"
                 }
@@ -1749,7 +1749,7 @@ return {
                 }
             },
             v_paint_brush = {
-                name = "Pędzel malarski",
+                name = "Pędzel",
                 text = {
                     "{C:attention}+#1#{} do rozmiaru ręki"
                 }
@@ -2123,7 +2123,7 @@ return {
                 }
             },
             c_immolate = {
-                name = "Spalenie",
+                name = "Ofiara",
                 text = {
                     "Niszczy {C:attention}#1#{} losowych",
                     "kart w ręce,",
@@ -3040,40 +3040,40 @@ return {
             undiscovered_joker = {
                 name = "Nie odkryto",
                 text = {
-                    "Kup albo użyj tej karty w",
-                    "nierozstawionym podejściu (bez seeda),",
+                    "Kup albo użyj tej karty",
+                    "w nieustawionym podejściu (bez seeda),",
                     "by dowiedzieć się, jaki jest jej efekt"
                 }
             },
             undiscovered_tarot = {
                 name = "Nie odkryto",
                 text = {
-                    "Kup albo użyj tej karty w",
-                    "nierozstawionym podejściu (bez seeda),",
+                    "Kup albo użyj tej karty",
+                    "w nieustawionym podejściu (bez seeda),",
                     "by dowiedzieć się, jaki jest jej efekt"
                 }
             },
             undiscovered_planet = {
                 name = "Nie odkryto",
                 text = {
-                    "Kup albo użyj tej karty w",
-                    "nierozstawionym podejściu (bez seeda),",
+                    "Kup albo użyj tej karty",
+                    "w nieustawionym podejściu (bez seeda),",
                     "by dowiedzieć się, jaki jest jej efekt"
                 }
             },
             undiscovered_spectral = {
                 name = "Nie odkryto",
                 text = {
-                    "Kup albo użyj tej karty w",
-                    "nierozstawionym podejściu (bez seeda),",
+                    "Kup albo użyj tej karty",
+                    "w nieustawionym podejściu (bez seeda),",
                     "by dowiedzieć się, jaki jest jej efekt"
                 }
             },
             undiscovered_voucher = {
                 name = "Nie odkryto",
                 text = {
-                    "Wykorzystaj ten kupon w",
-                    "nierozstawionym podejściu (bez seeda),",
+                    "Wykorzystaj ten kupon",
+                    "w nieustawionym podejściu (bez seeda),",
                     "by dowiedzieć się, jaki jest jego efekt"
                 }
             },
@@ -3081,7 +3081,7 @@ return {
                 name = "Nie odkryto",
                 text = {
                     "Otwórz ten pakiet",
-                    "w nierozstawionym podejściu (bez seeda),",
+                    "w nieustawionym podejściu (bez seeda),",
                     "by dowiedzieć się, jaki jest jej efekt"
                 }
             },
@@ -3089,7 +3089,7 @@ return {
                 name = "Nie odkryto",
                 text = {
                     "Znajdź ten wariant",
-                    "w nierozstawionym podejściu (bez seeda),",
+                    "w nieustawionym podejściu (bez seeda),",
                     "by dowiedzieć się, jaki jest jej efekt"
                 }
             },
@@ -3097,7 +3097,7 @@ return {
                 name = "Nie odkryto",
                 text = {
                     "Użyj tego pinu w",
-                    "nierozstawionym podejściu (bez seeda),",
+                    "nieustawionym podejściu (bez seeda),",
                     "by dowiedzieć się, jaki jest jego efekt"
                 }
             },
@@ -3129,7 +3129,7 @@ return {
                 name = "Pakiet Gwiezdny",
                 text = {
                     "Wybierz {C:attention}#1#{} z",
-                    "{C:attention}#2#{} kart{C:planet} Planety{}",
+                    "{C:attention}#2#{} kart{C:planet} Planet{}",
                     "i natychmiast użyj"
                 }
             },
@@ -3137,7 +3137,7 @@ return {
                 name = "Duży pakiet Gwiezdny",
                 text = {
                     "Wybierz {C:attention}#1#{} z",
-                    "{C:attention}#2#{} kart{C:planet} Planety{}",
+                    "{C:attention}#2#{} kart{C:planet} Planet{}",
                     "i natychmiast użyj"
                 }
             },
@@ -3145,7 +3145,7 @@ return {
                 name = "Megapakiet Gwiezdny",
                 text = {
                     "Wybierz {C:attention}#1#{} z",
-                    "{C:attention}#2#{} kart{C:planet} Planety{}",
+                    "{C:attention}#2#{} kart{C:planet} Planet{}",
                     "i natychmiast użyj"
                 }
             },
@@ -3451,8 +3451,8 @@ return {
             b_set_game_vol = "Głośność efektów",
             b_set_shadows = "Cienie",
             b_set_pixel_smoothing = "Wygładzanie pikseli",
-            b_set_CRT = "Efekt monitora CRT",
-            b_set_CRT_bloom = "Efekt poświaty CRT",
+            b_set_CRT = "Filtr kineskopu",
+            b_set_CRT_bloom = "Poświata",
             b_stat_jokers = "Jokery",
             b_stat_consumables = "Zużywalne",
             b_stat_tarots = "Karty Tarota",
@@ -3460,7 +3460,7 @@ return {
             b_stat_spectrals = "Karty Widmo",
             b_stat_vouchers = "Kupony",
             b_next = "Następna",
-            b_endless = "Tryb niekończącej się rozgrywki",
+            b_endless = "Graj do upadłego",
             b_wishlist = "Dodaj do listy życzeń na Steam",
             b_playbalatro = "Odwiedź stronę playbalatro.com",
             b_remaining = "Pozostało",
@@ -3574,7 +3574,7 @@ return {
             k_reward = "Nagroda",
             k_nope_ex = "Nie tym razem!",
             k_or = "lub",
-            k_balanced = "Zrównoważono",
+            k_balanced = "Balans!",
             ph_improve_run = "Zwiększ swoje szanse!",
             ph_sneak_peek = "Zapowiedź",
             ph_deck_preview_stones = "Karty Kamienne",
@@ -3584,7 +3584,7 @@ return {
             ph_up_ante_1 = "Podnieś stawkę",
             ph_up_ante_2 = "Podnieś zakłady",
             ph_up_ante_3 = "Odśwież zakłady",
-            ph_stat_joker = "Łączna liczba ukończonych rund z tą kartą",
+            ph_stat_joker = "Łączna liczba rund ukończonych z tą kartą",
             ph_stat_consumable = "Liczba użyć tej karty",
             ph_stat_voucher = "Liczba użyć tego kuponu",
             ph_demo_thanks_1 = "Dziękujemy za grę w",
@@ -3666,9 +3666,9 @@ return {
             k_no_room_ex = "Brak miejsca!",
             k_no_space_ex = "Brak miejsca!",
             k_no_other_jokers = "Brak innych Jokerów!",
-            k_plus_tarot = "+1 Tarot",
+            k_plus_tarot = "+1 Karta Tarota",
             k_plus_stone = "+1 Karta Kamienna",
-            k_plus_planet = "+1 Planeta",
+            k_plus_planet = "+1 Karta Planeta",
             k_plus_spectral = "+1 Karta Widmo",
             k_active_ex = "Aktywowane!",
             k_level_up_ex = "Zwiększono poziom!",
