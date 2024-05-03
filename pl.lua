@@ -196,9 +196,9 @@ return {
             j_8_ball = {
                 name = "Bila nr 8",
                 text = {
-                    "Tworzy kartę {C:planet}Planety{},",
-                    "jeśli zagrany układ zawiera",
-                    "{C:attenetion}#1#{} lub więcej {C:attention}ósemek{}",
+                    "{C:green}#1#/#2#{} szans na stworzenie",
+                    "karty {C:tarot}Tarota{} za każdą zagraną",
+                    "punktującą {C:attention}ósemkę{}",
                     "{C:inactive}(wymaga miejsca)"
                 }
             },
@@ -475,8 +475,7 @@ return {
                 text = {
                     "Otrzymujesz {C:money}$#1#{}, jeśli {C:attention}układ pokerowy{}",
                     "to {C:attention}#2#{},",
-                    "przy czym układ pokerowy zmienia się",
-                    "przy każdej wypłacie"
+                    "układ zmienia się co rundę",
                 }
             },
             j_ticket = {
@@ -530,9 +529,8 @@ return {
             j_swashbuckler = {
                 name = "Korsarz",
                 text = {
-                    "Dodaje wartość sprzedaży",
-                    "wszystkich posiadanych {C:attention}jokerów{}",
-                    "na lewo od tej karty do mnoż.",
+                    "Dodaje wartość sprzedaży wszystkich",
+                    "posiadanych {C:attention}jokerów{} do mnoż.",
                     "{C:inactive}(obecnie mnoż. {C:mult}+#1#{C:inactive})"
                 },
                 unlock = {
@@ -596,8 +594,8 @@ return {
             j_hanging_chad = {
                 name = "Na włosku",
                 text = {
-                    "Aktywuje dwukrotnie {C:attention}pierwszą{}",
-                    "kartę wykorzystaną do zdobycia punktów"
+                    "Aktywuje {C:attention}pierwszą{} kartę",
+                    "zdobywającą punkty dodatkowe {C:attention}#1#{} razy"
                 },
                 unlock = {
                     "Pokonaj Bossa",
@@ -890,7 +888,7 @@ return {
             j_madness = {
                 name = "Szaleństwo",
                 text = {
-                    "Po wybraniu {C:attention}zakładu{},",
+                    "Po wybraniu zakładu {C:attention}niebędącego Bossem{},",
                     "dodaje mnoż. {X:mult,C:white} X#1# {} oraz",
                     "{C:attention}niszczy{} losowego jokera",
                     "{C:inactive}(obecnie mnoż. {X:mult,C:white} X#2# {})"
@@ -1039,7 +1037,8 @@ return {
                 name = "Ucha od buta",
                 text = {
                     "Mnoż. {C:mult}+#1#{} za każde",
-                    "posiadane {C:money}$#2#{}"
+                    "posiadane {C:money}$#2#{}",
+					"{C:inactive}(obecnie {C:mult}+#3#{C:inactive})"
                 },
                 unlock = {
                     "Posiadaj przynajmniej {E:1,C:attention}#1#",
@@ -1071,8 +1070,8 @@ return {
             j_yorick = {
                 name = "Yorick",
                 text = {
-                    "mnoż. {X:mult,C:white} X#1# {} tylko po",
-                    "wykorzystaniu {C:attention}#2#{} zrzut.",
+                    "Zyskuje {X:mult,C:white} X#1# {} do mnoż.",
+                    "co {C:attention}#2#{} odrzuconych kart",
                     "{C:inactive}(zostało zrzutek: {C:attention}#3#{C:inactive})"
                 },
                 unlock = {
@@ -1145,7 +1144,7 @@ return {
                 name = "Wampir",
                 text = {
                     "Zyskuje mnoż. {X:mult,C:white} X#1# {} na",
-                    "zagraną {C:attention}ulepszoną kartę{},",
+                    "zagraną, punktującą {C:attention}ulepszoną kartę{},",
                     "usuwa {C:attention}ulepszenie karty",
                     "{C:inactive}(obecnie mnoż. {X:mult,C:white} X#2# {C:inactive})"
                 }
@@ -1155,7 +1154,7 @@ return {
                 text = {
                     "Pozwala ułożyć {C:attention}strity{}",
                     "używając luk o randze {C:attention}1",
-                    "{C:inactive}(np.: {C:attention}2 3 5 7 8{C:inactive})"
+                    "{C:inactive}(np.: {C:attention}10 8 6 5 3{C:inactive})"
                 }
             },
             j_hologram = {
@@ -1214,7 +1213,7 @@ return {
                 text = {
                     "Wszystkie {C:attention}figury{} karciane",
                     "zamieniają się w {C:attention}Złote{} karty",
-                    "przy zagraniu"
+                    "gdy zagrane i zdobywają punkty"
                 }
             },
             j_luchador = {
@@ -1768,8 +1767,8 @@ return {
             c_magician = {
                 name = "Mag",
                 text = {
-                    "Ulepsza {C:attention}#1#{} wybraną",
-                    "kartę do:",
+                    "Ulepsza {C:attention}#1#{} wybranych",
+                    "kart do:",
                     "{C:attention}#2#"
                 }
             },
@@ -2341,15 +2340,18 @@ return {
             stake_orange = {
                 name = "Pomarańczowa stawka",
                 text = {
-                    "{C:attention}Pakiety{} kosztują",
-                    "o {C:money}1${} więcej na wejście",
+                    "W sklepie pojawiają się",
+                    "{C:attention}Nietrwałe{} Jokery",
+                    "{C:inactive,s:0.8}(Osłabiane po 5 rundach)",
                     "{s:0.8}Zawiera efekty wszystkich poprzednich stawek"
                 }
             },
             stake_gold = {
                 name = "Złota stawka",
                 text = {
-                    "{C:red}-1{} do rozmiaru ręki",
+                    "W sklepie pojawiają się",
+					"Jokery {C:attention}do wypożyczenia{}",
+                    "{C:inactive,s:0.8}(Pobierają {C:money,s:0.8}$3{C:inactive,s:0.8} co rundę)",
                     "{s:0.8}Zawiera efekty wszystkich poprzednich stawek"
                 }
             }
@@ -2359,42 +2361,48 @@ return {
                 name = "Pin niepospolity",
                 text = {
                     "Sklep zaoferuje",
-                    "{C:green}Niepospolitego Jokera"
+                    "{C:green}Niepospolitego Jokera",
+					"za darmo"
                 }
             },
             tag_rare = {
                 name = "Pin rzadki",
                 text = {
                     "Sklep zaoferuje",
-                    "{C:red}Rzadkiego Jokera"
+                    "{C:red}Rzadkiego Jokera",
+					"za darmo"
                 }
             },
             tag_negative = {
                 name = "Pin negatywu",
                 text = {
                     "Sklep zaoferuje",
-                    "{C:dark_edition}Jokera w negatywie"
+                    "{C:dark_edition}Jokera w negatywie",
+					"za darmo"
                 }
             },
             tag_foil = {
                 name = "Pin foliowy",
                 text = {
                     "Sklep zaoferuje",
-                    "{C:dark_edition}Jokera w folii"
+                    "{C:dark_edition}Jokera w folii",
+					"za darmo"
                 }
             },
             tag_holo = {
                 name = "Pin hologramu",
                 text = {
                     "Sklep zaoferuje",
-                    "{C:dark_edition}Jokera w hologramie"
+                    "{C:dark_edition}Jokera w hologramie",
+					"za darmo"
                 }
             },
             tag_polychrome = {
                 name = "Pin połyskujący",
                 text = {
                     "Sklep zaoferuje",
-                    "{C:dark_edition}połyskującego Jokera"
+                    "{C:dark_edition}połyskującego Jokera",
+					"za darmo"
                 }
             },
             tag_investment = {
@@ -3239,8 +3247,8 @@ return {
                 name = "Niebieska Pieczęć",
                 text = {
                     "Tworzy kartę {C:planet}Planety{},",
-                    "jeśli karta ta jest w {C:attention}ręce{}",
-                    "na końcu rundy"
+					"odpowiadającą ostatniemu zagranemu układowi",
+                    "gdy pozostaje w {C:attention}ręce{} na końcu rundy"
                 }
             },
             purple_seal = {
