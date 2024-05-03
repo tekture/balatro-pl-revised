@@ -271,7 +271,7 @@ return {
                 }
             },
             j_hack = {
-                name = "Kabareciarz",
+                name = "Powtórka z rozrywki",
                 text = {
                     "Aktywuje dwukrotnie",
                     "{C:attention}2{}, {C:attention}3{}, {C:attention}4{} i {C:attention}5{}",
@@ -672,7 +672,7 @@ return {
                 }
             },
             j_ring_master = {
-                name = "Konferansjer cyrkowy",
+                name = "Antreprener",
                 text = {
                     "{C:attention}Jokery{}, karty {C:tarot}Tarota{}, karty {C:planet}Planet{}",
                     "oraz karty {C:spectral}Widmo{} mogą",
@@ -707,7 +707,7 @@ return {
                 }
             },
             j_wee = {
-                name = "Maleńki Joker",
+                name = "Drobny Joker",
                 text = {
                     "Zyskuje {C:chips}+#2#{} żet. z każdej",
                     "zagranej {C:attention}dwójki{}",
@@ -757,7 +757,7 @@ return {
                 }
             },
             j_seeing_double = {
-                name = "Podwójne widzenie",
+                name = "Zdwojone widzenie",
                 text = {
                     "Mnoż. {X:mult,C:white} X#1# {}, jeśli",
                     "w ręce znajdują się punktujące karty",
@@ -1218,7 +1218,7 @@ return {
                 }
             },
             j_luchador = {
-                name = "Luchador",
+                name = "Wrestler",
                 text = {
                     "Sprzedaj tę kartę, aby",
                     "zablokować zdolność {C:attention}Bossa{}",
@@ -1427,7 +1427,7 @@ return {
             v_clearance_sale = {
                 name = "Wyprzedaż",
                 text = {
-                    "Wszystkie karty i pakiety w",
+                    "Wszystkie karty i pakiety",
                     "w sklepie mają zniżkę {C:attention}#1#%{}"
                 }
             },
@@ -1448,8 +1448,8 @@ return {
             v_hone = {
                 name = "Szlif",
                 text = {
-                    "Karty {C:dark_edition}w folii{}, {C:dark_edition}hologramy{} oraz",
-                    "{C:dark_edition}połyskujące{}",
+                    "Karty {C:dark_edition}w folii{}, {C:dark_edition}hologramy{}",
+                    "oraz {C:dark_edition}połyskujące{}",
                     "pojawiają się {C:attention}#1#X{} częściej"
                 }
             },
@@ -1457,7 +1457,7 @@ return {
                 name = "Rzuty na zbyciu",
                 text = {
                     "Przelosowania kosztują",
-                    "{C:money}$#1#{} mniej"
+                    "o {C:money}$#1#{} mniej"
                 }
             },
             v_crystal_ball = {
@@ -1471,8 +1471,8 @@ return {
                 text = {
                     "{C:attention}Pakiety Gwiezdne{} zawsze",
                     "zawierają kartę {C:planet}Planety{}",
-                    "dla najczęściej",
-                    "zagrywanego {C:attention}układu pokerowego"
+                    "dla najczęściej zagrywanego",
+                    "{C:attention}układu pokerowego"
                 }
             },
             v_grabber = {
@@ -1549,7 +1549,7 @@ return {
             v_liquidation = {
                 name = "Likwidacja",
                 text = {
-                    "Wszystkie karty i pakiety w",
+                    "Wszystkie karty i pakiety",
                     "w sklepie mają zniżkę {C:attention}#1#%{}"
                 },
                 unlock = {
@@ -1585,8 +1585,8 @@ return {
             v_glow_up = {
                 name = "Błysk",
                 text = {
-                    "Karty {C:dark_edition}w folii{}, {C:dark_edition}hologramy{} oraz",
-                    "{C:dark_edition}połyskujące{}",
+                    "Karty {C:dark_edition}w folii{}, {C:dark_edition}hologramy{}",
+                    "oraz {C:dark_edition}połyskujące{}",
                     "pojawiają się {C:attention}#1#X{} częściej"
                 },
                 unlock = {
@@ -1600,7 +1600,7 @@ return {
                 name = "Przesyt przelosowań",
                 text = {
                     "Przelosowania sklepu kosztują",
-                    "{C:money}$#1#{} mniej"
+                    "o {C:money}$#1#{} mniej"
                 },
                 unlock = {
                     "Przelosuj sklep",
@@ -3036,7 +3036,7 @@ return {
                 name = "Zablokowana",
                 text = {
                     "Znajdź tego jokera",
-                    "za pomocą karty {C:spectral}Duszy{}"
+                    "za pomocą karty {C:spectral}Widmo{}"
                 }
             },
             undiscovered_joker = {
@@ -3258,6 +3258,21 @@ return {
                     "ani zniszczyć"
                 }
             },
+			perishable = {
+                name = "Nietrwały",
+                text = {
+                    "Osłabienie po",
+                    "{C:attention}#1#{} rund.",
+                    "{C:inactive}(pozostało: {C:attention}#2#{C:inactive})"
+                }
+            },
+            rental = {
+                name = "Wypożyczany",
+                text = {
+                    "Tracisz {C:money}#1#${} na",
+                    "końcu rundy"
+                }
+            },
             challenge_locked = {
                 name = "Zablokowane",
                 text = {
@@ -3407,6 +3422,8 @@ return {
             red_seal = "Czerwona Pieczęć",
             purple_seal = "Fioletowa Pieczęć",
             eternal = "Wieczny",
+            perishable = "Nietrwały",
+            rental = "Wypożyczony",
             pinned_left = "Przypięty"
         },
         dictionary = {
@@ -3465,7 +3482,7 @@ return {
             b_endless = "Graj do upadłego",
             b_wishlist = "Dodaj do listy życzeń na Steam",
             b_playbalatro = "Odwiedź stronę playbalatro.com",
-            b_remaining = "Pozostało",
+            b_remaining = "Pozostałe",
             b_full_deck = "Kompletna talia",
             b_poker_hands = "Układy pokerowe",
             b_blinds = "Zakłady",
@@ -3676,6 +3693,7 @@ return {
             k_level_up_ex = "Zwiększono poziom!",
             k_upgrade_ex = "Ulepszone!",
             k_again_ex = "Jeszcze raz!",
+            k_disabled_ex = "Wyłączone!",
             k_val_up = "Podniesiono wartość!",
             k_reset = "Reset",
             k_extinct_ex = "Żegnaj!",
@@ -3686,6 +3704,7 @@ return {
             k_melted_ex = "Stopione!",
             b_copy = "Kopiuj",
             b_high_contrast_cards = "Karty o wysokim kontraście",
+            b_reduced_motion = "Mniej nagłych ruchów",
             b_set_rumble = "Wibracje kontrolera",
             b_seals = "Pieczęcie",
             b_new_challenge = "Rozpocznij nowe wyzwanie",
