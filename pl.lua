@@ -79,7 +79,7 @@ return {
                 text = {
                     "Zyskuje {C:chips}+#1#{} żet.",
                     "za każdą zagraną kartę {C:attention}kamienną",
-                    "{C:inactive}(obecnie {C:chips}+#2#{C:inactive} żet.)"
+                    "{C:inactive}(obecnie {C:chips}+#2#{C:inactive} do żet.)"
                 }
             },
             j_golden = {
@@ -160,7 +160,7 @@ return {
                     "niszczy jokera po prawej",
                     "oraz na stałe dodaje {C:attention}podwojenie",
                     "wartości jego sprzedaży do swojego {C:red}mnoż.",
-                    "{C:inactive}(obecnie mnoż. {C:mult}+#1#{C:inactive})"
+                    "{C:inactive}(obecnie {C:mult}+#1#{C:inactive} do mnoż.)"
                 }
             },
             j_banner = {
@@ -257,9 +257,9 @@ return {
             j_abstract = {
                 name = "Abstrakcyjny Joker",
                 text = {
-                    "Mnoż. {C:mult}+#1#{} za",
+                    "{C:mult}+#1#{} do mnoż. za",
                     "każdego {C:attention}jokera{}",
-                    "{C:inactive}(obecnie mnoż. {C:red}+#2#{C:inactive})"
+                    "{C:inactive}(obecnie {C:red}+#2#{C:inactive} do mnoż.)"
                 }
             },
             j_delayed_grat = {
@@ -340,10 +340,10 @@ return {
             j_ride_the_bus = {
                 name = "Przejażdżka autobusem",
                 text = {
-                    "Mnoż. {C:mult}+#1#{} na każdą kolejną",
-                    "rękę zagraną bez",
+                    "Zyskuje {C:mult}+#1#{} do mnoż. na każdą",
+                    "kolejną rękę zagraną bez",
                     "punktującej figury {C:attention}karcianej{}",
-                    "{C:inactive}(obecnie mnoż. {C:mult}+#2#{C:inactive})"
+                    "{C:inactive}(obecnie {C:mult}+#2#{C:inactive} do mnoż.)"
                 }
             },
             j_space = {
@@ -384,7 +384,7 @@ return {
                     "Zyskuje {C:chips}+#2#{} żet.",
                     "jeśli zagrany układ",
                     "zawiera {C:attention}strita{}",
-                    "{C:inactive}(obecnie {C:chips}+#1#{C:inactive} żet.)"
+                    "{C:inactive}(obecnie {C:chips}+#1#{C:inactive} do żet.)"
                 }
             },
             j_ice_cream = {
@@ -416,7 +416,7 @@ return {
                 text = {
                     "{C:chips}+#1#{} żet. za każdą",
                     "pozostałą kartę w {C:attention}talii",
-                    "{C:inactive}(obecnie {C:chips}+#2#{C:inactive} żet.)"
+                    "{C:inactive}(obecnie {C:chips}+#2#{C:inactive} do żet.)"
                 }
             },
             j_sixth_sense = {
@@ -531,7 +531,7 @@ return {
                 text = {
                     "Dodaje wartość sprzedaży wszystkich",
                     "posiadanych {C:attention}jokerów{} do mnoż.",
-                    "{C:inactive}(obecnie mnoż. {C:mult}+#1#{C:inactive})"
+                    "{C:inactive}(obecnie {C:mult}+#1#{C:inactive} do mnoż.)"
                 },
                 unlock = {
                     "Sprzedaj łącznie",
@@ -709,7 +709,7 @@ return {
                 text = {
                     "Zyskuje {C:chips}+#2#{} żet. z każdej",
                     "zagranej {C:attention}dwójki{}",
-                    "{C:inactive}(obecnie {C:chips}+#1#{C:inactive} żet.)"
+                    "{C:inactive}(obecnie {C:chips}+#1#{C:inactive} do żet.)"
                 },
                 unlock = {
                     "Wygraj podejście w ciągu {E:1,C:attention}#1#",
@@ -880,18 +880,18 @@ return {
             j_red_card = {
                 name = "Czerwona karta",
                 text = {
-                    "Zyskuje mnoż. {C:red}+#1#{}, gdy dowolny",
+                    "Zyskuje {C:red}+#1#{} do mnoż., gdy dowolny",
                     "{C:attention}pakiet{} zostanie pominięty",
-                    "{C:inactive}(obecnie mnoż. {C:red}+#2#{C:inactive})"
+                    "{C:inactive}(obecnie {C:red}+#2#{C:inactive} do mnoż.)"
                 }
             },
             j_madness = {
                 name = "Szaleństwo",
                 text = {
                     "Po wybraniu zakładu {C:attention}niebędącego Bossem{},",
-                    "dodaje mnoż. {X:mult,C:white} X#1# {} oraz",
+                    "zyskuje mnoż. {X:mult,C:white} X#1# {} oraz",
                     "{C:attention}niszczy{} losowego jokera",
-                    "{C:inactive}(obecnie mnoż. {X:mult,C:white} X#2# {})"
+                    "{C:inactive}(obecnie mnoż. {X:mult,C:white} X#2# {C:inactive})"
                 }
             },
             j_square = {
@@ -900,7 +900,7 @@ return {
                     "{C:chips}+#2#{} żet. jeśli",
                     "w zagranej ręce znajdują się",
                     "dokładnie {C:attention}4{} karty",
-                    "{C:inactive}(obecnie {C:chips}#1#{C:inactive} żet.)"
+                    "{C:inactive}(obecnie {C:chips}#1#{C:inactive} do żet.)"
                 }
             },
             j_seance = {
@@ -1038,7 +1038,7 @@ return {
                 text = {
                     "Mnoż. {C:mult}+#1#{} za każde",
                     "posiadane {C:money}$#2#{}",
-					"{C:inactive}(obecnie {C:mult}+#3#{C:inactive})"
+                    "{C:inactive}(obecnie {C:mult}+#3#{C:inactive})"
                 },
                 unlock = {
                     "Posiadaj przynajmniej {E:1,C:attention}#1#",
@@ -1048,7 +1048,7 @@ return {
             j_caino = {
                 name = "Canio",
                 text = {
-                    "Zyskuje {X:mult,C:white} X#1# {} do mnoż. przy",
+                    "Zyskuje mnoż. {X:mult,C:white} X#1# {} przy",
                     "zniszczeniu {C:attention}figury{} karcianej",
                     "{C:inactive}(obecnie mnoż. {X:mult,C:white} X#2# {C:inactive})"
                 },
@@ -1059,9 +1059,8 @@ return {
             j_triboulet = {
                 name = "Triboulet",
                 text = {
-                    "Każde zagranie {C:attention}króla{} i",
-                    "{C:attention}królowej{} daje",
-                    "mnoż. {X:mult,C:white} X#1# {} przy zdobyciu punktów,"
+                    "Każda punktująca karta {C:attention}króla{}",
+                    "lub {C:attention}królowej{} daje mnoż. {X:mult,C:white} X#1#"
                 },
                 unlock = {
                     "{E:1,s:1.3}?????"
@@ -1070,9 +1069,9 @@ return {
             j_yorick = {
                 name = "Yorick",
                 text = {
-                    "Zyskuje {X:mult,C:white} X#1# {} do mnoż.",
+                    "Zyskuje mnoż. {X:mult,C:white} X#1# {}",
                     "co {C:attention}#2#{} odrzuconych kart",
-                    "{C:inactive}(zostało zrzutek: {C:attention}#3#{C:inactive})"
+                    "{C:inactive}(pozostało {C:attention}#3#{C:inactive}, obecnie mnoż. {X:mult,C:white} X#4# {C:inactive})"
                 },
                 unlock = {
                     "{E:1,s:1.3}?????"
@@ -1081,8 +1080,7 @@ return {
             j_chicot = {
                 name = "Chicot",
                 text = {
-                    "Wyłącza efekt",
-                    "każdej zdolności {C:attention}Bossa"
+                    "Wyłącza zdolność {C:attention}Bossa"
                 },
                 unlock = {
                     "{E:1,s:1.3}?????"
@@ -1251,10 +1249,10 @@ return {
             j_erosion = {
                 name = "Erozja",
                 text = {
-                    "Mnoż. {C:red}+#1#{} za każdą",
+                    "{C:red}+#1#{} do mnoż. za każdą",
                     "kartę poniżej {C:attention}#3#{}",
                     "w kompletnej talii",
-                    "{C:inactive}(obecnie mnoż. {C:red}+#2#{C:inactive})"
+                    "{C:inactive}(obecnie {C:red}+#2#{C:inactive} do mnoż.)"
                 }
             },
             j_reserved_parking = {
@@ -1311,7 +1309,7 @@ return {
                 text = {
                     "{C:chips}+#1#{} żet. za każdego",
                     "posiadanego {C:money}${}",
-                    "{C:inactive}(obecnie {C:chips}+#2#{C:inactive} żet.)"
+                    "{C:inactive}(obecnie {C:chips}+#2#{C:inactive} do żet.)"
                 }
             },
             j_diet_cola = {
@@ -1333,9 +1331,9 @@ return {
             j_flash = {
                 name = "Fiszka",
                 text = {
-                    "Mnoż. {C:mult}+#1#{} za każde",
+                    "Zyskuje {C:mult}+#1#{} do mnoż. za każde",
                     "{C:attention}przelosowanie oferty{} w sklepie",
-                    "{C:inactive}(obecny mnoż. {C:mult}+#2#{C:inactive})"
+                    "{C:inactive}(obecnie {C:mult}+#2#{C:inactive} do mnoż.)"
                 }
             },
             j_popcorn = {
@@ -1349,10 +1347,10 @@ return {
             j_trousers = {
                 name = "Zapasowe spodnie",
                 text = {
-                    "Mnoż. {C:mult}+#1#{} za każdy",
+                    "Zyskuje {C:mult}+#1#{} za każdy",
                     "zagrany układ zawierający",
                     "{C:attention}#2#",
-                    "{C:inactive}(obecnie mnoż. {C:red}+#3#{C:inactive})"
+                    "{C:inactive}(obecnie {C:red}+#3#{C:inactive} do mnoż.)"
                 }
             },
             j_ancient = {
@@ -1394,7 +1392,7 @@ return {
                     "{C:chips}+#1#{} żet. na odrzuconą",
                     "kartę {V:1}#2#{},",
                     "kolor zmienia się co rundę",
-                    "{C:inactive}(obecnie {C:chips}+#3#{C:inactive} żet.)"
+                    "{C:inactive}(obecnie {C:chips}+#3#{C:inactive} do żet.)"
                 }
             },
             j_smiley = {
@@ -1408,8 +1406,8 @@ return {
             j_campfire = {
                 name = "Ognisko",
                 text = {
-                    "Ten joker daje mnoż. {X:mult,C:white}X#1#{}",
-                    "za każdą {C:attention}sprzedaną{} kartę i zeruje się",
+                    "Zyskuje mnoż. {X:mult,C:white}X#1#{}",
+                    "za każdą {C:attention}sprzedaną{} kartę i resetuje się",
                     "po pokonaniu {C:attention}Bossa{}",
                     "{C:inactive}(obecnie mnoż. {X:mult,C:white} X#2# {C:inactive})"
                 }
@@ -2350,7 +2348,7 @@ return {
                 name = "Złota stawka",
                 text = {
                     "W sklepie pojawiają się",
-					"Jokery {C:attention}do wypożyczenia{}",
+                    "Jokery {C:attention}do wypożyczenia{}",
                     "{C:inactive,s:0.8}(Pobierają {C:money,s:0.8}$3{C:inactive,s:0.8} co rundę)",
                     "{s:0.8}Zawiera efekty wszystkich poprzednich stawek"
                 }
@@ -2362,7 +2360,7 @@ return {
                 text = {
                     "Sklep zaoferuje",
                     "{C:green}Niepospolitego Jokera",
-					"za darmo"
+                    "za darmo"
                 }
             },
             tag_rare = {
@@ -2370,7 +2368,7 @@ return {
                 text = {
                     "Sklep zaoferuje",
                     "{C:red}Rzadkiego Jokera",
-					"za darmo"
+                    "za darmo"
                 }
             },
             tag_negative = {
@@ -2378,7 +2376,7 @@ return {
                 text = {
                     "Sklep zaoferuje",
                     "{C:dark_edition}Jokera w negatywie",
-					"za darmo"
+                    "za darmo"
                 }
             },
             tag_foil = {
@@ -2386,7 +2384,7 @@ return {
                 text = {
                     "Sklep zaoferuje",
                     "{C:dark_edition}Jokera w folii",
-					"za darmo"
+                    "za darmo"
                 }
             },
             tag_holo = {
@@ -2394,7 +2392,7 @@ return {
                 text = {
                     "Sklep zaoferuje",
                     "{C:dark_edition}Jokera w hologramie",
-					"za darmo"
+                    "za darmo"
                 }
             },
             tag_polychrome = {
@@ -2402,7 +2400,7 @@ return {
                 text = {
                     "Sklep zaoferuje",
                     "{C:dark_edition}połyskującego Jokera",
-					"za darmo"
+                    "za darmo"
                 }
             },
             tag_investment = {
@@ -3247,7 +3245,7 @@ return {
                 name = "Niebieska Pieczęć",
                 text = {
                     "Tworzy kartę {C:planet}Planety{},",
-					"odpowiadającą ostatniemu zagranemu układowi",
+                    "odpowiadającą ostatniemu zagranemu układowi",
                     "gdy pozostaje w {C:attention}ręce{} na końcu rundy"
                 }
             },
@@ -3266,7 +3264,7 @@ return {
                     "ani zniszczyć"
                 }
             },
-			perishable = {
+            perishable = {
                 name = "Nietrwały",
                 text = {
                     "Osłabienie po",
