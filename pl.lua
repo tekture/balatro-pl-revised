@@ -3704,7 +3704,7 @@ return {
             k_melted_ex = "Stopione!",
             b_copy = "Kopiuj",
             b_high_contrast_cards = "Karty o wysokim kontraście",
-            b_reduced_motion = "Mniej nagłych ruchów",
+            b_reduced_motion = "Nieruchome tło",
             b_set_rumble = "Wibracje kontrolera",
             b_seals = "Pieczęcie",
             b_new_challenge = "Rozpocznij nowe wyzwanie",
