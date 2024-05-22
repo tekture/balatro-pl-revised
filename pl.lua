@@ -94,7 +94,7 @@ return {
                 text = {
                     "Zyskuje bonusowy mnożnik {X:red,C:white}X1",
                     "za każdy pusty slot na {C:attention}jokera{}",
-					"{s:0.8}(np. {X:inactive,C:white,s:0.8}X4{s:0.8} za 3 puste sloty)",
+                    "{s:0.8}(np. {X:inactive,C:white,s:0.8}X4{s:0.8} za 3 puste sloty)",
                     "{C:inactive}(obecnie {X:red,C:white} X#1# {C:inactive})"
                 }
             },
@@ -110,8 +110,8 @@ return {
                 name = "Mim",
                 text = {
                     "Aktywuje ponownie ulepszenia",
-                    "i pieczęcie kart, nawet tych",
-                    "pozostających w {C:attention}dłoni"
+                    "i pieczęcie kart pozostających",
+                    "w {C:attention}dłoni"
                 }
             },
             j_credit_card = {
@@ -124,7 +124,7 @@ return {
             j_greedy_joker = {
                 name = "Chciwy Joker",
                 text = {
-					"{C:red}+#1#{} do mnożnika",
+                    "{C:red}+#1#{} do mnożnika",
                     "za każdą punktującą",
                     "kartę {C:attention}#2#"
                 }
@@ -132,7 +132,7 @@ return {
             j_lusty_joker = {
                 name = "Żwawy Joker",
                 text = {
-					"{C:red}+#1#{} do mnożnika",
+                    "{C:red}+#1#{} do mnożnika",
                     "za każdą punktującą",
                     "kartę {C:attention}#2#"
                 }
@@ -140,7 +140,7 @@ return {
             j_wrathful_joker = {
                 name = "Gniewny Joker",
                 text = {
-					"{C:red}+#1#{} do mnożnika",
+                    "{C:red}+#1#{} do mnożnika",
                     "za każdą punktującą",
                     "kartę {C:attention}#2#"
                 }
@@ -148,7 +148,7 @@ return {
             j_gluttenous_joker = {
                 name = "Żarłoczny Joker",
                 text = {
-					"{C:red}+#1#{} do mnożnika",
+                    "{C:red}+#1#{} do mnożnika",
                     "za każdą punktującą",
                     "kartę {C:attention}#2#"
                 }
@@ -332,7 +332,7 @@ return {
                     "Mnożnik rośnie o tyle, ile razy dany",
                     "{C:attention}układ pokerowy{} został rozegrany",
                     "od początku podejścia",
-					"{s:0.8}(np. +3 do mnoż. za 3 zagrania)"
+                    "{s:0.8}(np. +3 do mnoż. za 3 zagrania)"
                 }
             },
             j_ride_the_bus = {
@@ -1200,7 +1200,7 @@ return {
                 name = "Obelisk",
                 text = {
                     "Zyskuje bonus {X:mult,C:white}X#1#{} za każdy",
-                    "{C:attention}kolejny{} zagrany układ nie będący",
+                    "{C:attention}kolejny{} zagrany układ niebędący",
                     "{C:attention}najczęściej granym{} układem pokerowym",
                     "{C:inactive}(obecnie mnoż. {X:mult,C:white} X#2# {C:inactive})"
                 }
@@ -1248,7 +1248,7 @@ return {
                 name = "Erozja",
                 text = {
                     "Gdy kompletna talia liczy",
-					"mniej niż {C:attention}#3#{} kart,",
+                    "mniej niż {C:attention}#3#{} kart,",
                     "{C:red}+#1#{} do mnożnika za każdą",
                     "brakującą kartę",
                     "{C:inactive}(obecnie {C:red}+#2#{C:inactive} do mnoż.)"
@@ -1381,7 +1381,7 @@ return {
             j_selzer = {
                 name = "Tabletka musująca",
                 text = {
-                    "Aktywuje dwukrotnie",
+                    "Aktywuje ponownie",
                     "wszystkie zagrane karty",
                     "przez następne",
                     "{C:attention}#1#{} rozdań"
@@ -2972,7 +2972,7 @@ return {
             },
             card_chips = {
                 text = {
-                    "{C:chips}+#1#{} żet."
+                    "{C:chips}+#1#{} żetonów"
                 }
             },
             card_extra_chips = {
@@ -3783,8 +3783,8 @@ return {
         },
         v_dictionary = {
             a_xmult = "Mnożnik X#1#",
-            a_mult = "+#1# do mnożnika",
-            a_chips = "+#1# do żetonów",
+            a_mult = "+#1# mnoż.",
+            a_chips = "+#1#",
             a_chips_minus = "-#1#",
             a_handsize = "+#1# do rozmiaru ręki",
             a_hands = "+#1# zagrań",
@@ -3820,7 +3820,7 @@ return {
             ml_negative_consumable_desc = {
                 "Negatyw",
                 "+#1# slot na",
-				"przedmiot zużywalny"
+                "przedmiot zużywalny"
             },
             a_xmult_minus = "Mnożnik -X#1#",
             unlocked = "Odblokowano #1#/#2#",
