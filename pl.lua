@@ -659,7 +659,7 @@ return {
                 text = {
                     "Bonus {X:mult,C:white}X#1#{} za każdą",
                     "{C:attention}szklaną{} kartę, która",
-                    "zostanie zniszczona",
+                    "zostaje zniszczona",
                     "{C:inactive}(obecnie mnoż. {X:mult,C:white} X#2# {C:inactive})"
                 },
                 unlock = {
@@ -899,7 +899,7 @@ return {
                     "Zyskuje {C:chips}+#2#{} do żetonów jeśli",
                     "w zagranej ręce znajdują się",
                     "dokładnie {C:attention}4{} karty",
-                    "{C:inactive}(obecnie {C:chips}#1#{C:inactive} do żet.)"
+                    "{C:inactive}(obecnie {C:chips}+#1#{C:inactive} do żet.)"
                 }
             },
             j_seance = {
@@ -1079,7 +1079,7 @@ return {
             j_chicot = {
                 name = "Chicot",
                 text = {
-                    "Wyłącza zdolność {C:attention}Bossa"
+                    "Wyłącza zdolności {C:attention}Bossów"
                 },
                 unlock = {
                     "{E:1,s:1.3}?????"
@@ -1248,7 +1248,7 @@ return {
                 name = "Erozja",
                 text = {
                     "Gdy kompletna talia liczy",
-                    "mniej niż {C:attention}#3#{} kart,",
+                    "mniej niż {C:attention}#3#{} karty,",
                     "{C:red}+#1#{} do mnożnika za każdą",
                     "brakującą kartę",
                     "{C:inactive}(obecnie {C:red}+#2#{C:inactive} do mnoż.)"
@@ -2324,8 +2324,9 @@ return {
             stake_black = {
                 name = "Czarna stawka",
                 text = {
-                    "W sklepie mogą pojawić się {C:attention}Wieczne{} Jokery",
-                    "{C:inactive,s:0.8}{Nie można ich sprzedaż lub zniszczyć}",
+                    "W sklepie pojawiają się",
+                    "{C:attention}Wieczne{} Jokery",
+                    "{C:inactive,s:0.8}(Nie można ich sprzedać ani zniszczyć)",
                     "{s:0.8}Zawiera efekty poprzednich stawek"
                 }
             },
@@ -3269,22 +3270,22 @@ return {
                 }
             },
             eternal = {
-                name = "Wieczna",
+                name = "Wieczny",
                 text = {
-                    "Nie można jej sprzedać",
+                    "Nie można go sprzedać",
                     "ani zniszczyć"
                 }
             },
             perishable = {
                 name = "Nietrwały",
                 text = {
-                    "Osłabienie po",
-                    "{C:attention}#1#{} rund.",
+                    "Osłabiony po",
+                    "{C:attention}#1#{} rundach",
                     "{C:inactive}(pozostało: {C:attention}#2#{C:inactive})"
                 }
             },
             rental = {
-                name = "Wypożyczany",
+                name = "Wypożyczony",
                 text = {
                     "Tracisz {C:money}#1#${} na",
                     "końcu rundy"
@@ -3541,14 +3542,14 @@ return {
             k_ante = "Wejście",
             k_seed = "Seed",
             k_reroll = "Przelosuj",
-            k_mult = "Mnożnik",
+            k_mult = "do mnożnika",
             k_rank = "Ranga",
             k_suit = "Kolor",
             k_stake = "Stawka",
-            k_common = "Pospolita",
-            k_uncommon = "Niepospolita",
-            k_rare = "Rzadka",
-            k_legendary = "Legendarna",
+            k_common = "Pospolity",
+            k_uncommon = "Niepospolity",
+            k_rare = "Rzadki",
+            k_legendary = "Legendarny",
             k_debuffed = "Osłabiona",
             k_locked = "Zablokowana",
             k_undisovered = "Nieodkryta",
@@ -3646,7 +3647,7 @@ return {
             },
             ml_eternal = {
                 "Wieczny",
-                "Nie można jej sprzedać",
+                "Nie można go sprzedać",
                 "ani zniszczyć"
             },
             ml_gold_seal_desc = {
@@ -3748,7 +3749,7 @@ return {
             ph_defeat_the_boss = "Pokonaj Bossa",
             ph_score_furthest_ante = "Wejście",
             ph_score_furthest_round = "Runda",
-            ph_score_hand = "Najlepsza zagranie",
+            ph_score_hand = "Najlepsze zagranie",
             ph_score_poker_hand = "Najczęściej grane",
             ph_score_new_collection = "Nowe odkrycia",
             ph_score_cards_played = "Zagrane karty",
