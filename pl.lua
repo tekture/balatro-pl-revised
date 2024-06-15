@@ -2342,7 +2342,7 @@ return {
                 name = "Pomarańczowa stawka",
                 text = {
                     "W sklepie pojawiają się",
-                    "{C:attention}Nietrwałe{} Jokery",
+                    "{C:attention}Tymczasowe{} Jokery",
                     "{C:inactive,s:0.8}(Osłabiane po 5 rundach)",
                     "{s:0.8}Zawiera efekty poprzednich stawek"
                 }
@@ -3277,7 +3277,7 @@ return {
                 }
             },
             perishable = {
-                name = "Nietrwały",
+                name = "Tymczasowy",
                 text = {
                     "Osłabiony po",
                     "{C:attention}#1#{} rundach",
@@ -3358,7 +3358,7 @@ return {
             poker_hand = "Ulubione zagranie"
         },
         poker_hands = {
-            ['Flush House'] = "Kolorowy ful",
+            ['Flush House'] = "Jednobarwny ful",
             ['Five of a Kind'] = "Piątka",
             ['Royal Flush'] = "Poker królewski",
             ['Straight Flush'] = "Poker",
@@ -3370,7 +3370,7 @@ return {
             ['Two Pair'] = "Dwie pary",
             ['Pair'] = "Para",
             ['High Card'] = "Wysoka karta",
-            ['Flush Five'] = "Kolorowa piątka"
+            ['Flush Five'] = "Jednobarwna piątka"
         },
         poker_hand_descriptions = {
             ['Flush House'] = {
@@ -3440,7 +3440,7 @@ return {
             red_seal = "Czerwona Pieczęć",
             purple_seal = "Fioletowa Pieczęć",
             eternal = "Wieczny",
-            perishable = "Nietrwały",
+            perishable = "Tymczasowy",
             rental = "Wypożyczony",
             pinned_left = "Przypięty"
         },
@@ -4054,8 +4054,7 @@ return {
             },
             s_10 = {
                 "{C:attention}Kupony{} są uzupełniane",
-                "po pokonaniu",
-                "{C:attention}Bossa{}."
+                "po pokonaniu {C:attention}Bossa{}."
             },
             s_11 = {
                 "Sprawdź także oba",
@@ -4069,34 +4068,34 @@ return {
             }
         },
         achievement_names = {
-            ante_up = "Stawka rośnie!",
-            ante_upper = "Stawka rośnie jeszcze bardziej!",
-            heads_up = "Uwaga!",
-            low_stakes = "Niskie stawki",
-            mid_stakes = "Średnie stawki",
-            high_stakes = "Wysokie stawki",
-            card_player = "Miłośnik zagrywania kart",
-            card_discarder = "Miłośnik odrzucania kart",
+            ante_up = "Pokaż kotku...",
+            ante_upper = "Co masz w środku!",
+            heads_up = "Jeden na jednego",
+            low_stakes = "Niska stawka",
+            mid_stakes = "Średnia stawka",
+            high_stakes = "Wysoka stawka",
+            card_player = "Zagrywacz",
+            card_discarder = "Odrzucacz",
             nest_egg = "Kura nioska",
-            flushed = "Mamy kolor",
+            flushed = "Czerwono-czarni",
             speedrunner = "Struś pędziwiatr",
             roi = "Zwrot z inwestycji",
-            shattered = "Roztrzaskanie",
-            royale = "Królewski",
-            retrograde = "Wsteczny",
-            _10k = "10 tysi",
-            _1000k = "1000 tysi",
-            _100000k = "100 000 tysi",
+            shattered = "Trzask",
+            royale = "Po królewsku",
+            retrograde = "Astrolog",
+            _10k = "10 kafli",
+            _1000k = "Bańka",
+            _100000k = "100 baniek",
             tiny_hands = "Małe ręce",
             big_hands = "Duże ręce",
-            you_get_what_you_get = "Dostajesz to, co dostajesz",
+            you_get_what_you_get = "Co dostaniesz, to dostaniesz",
             rule_bender = "Naginacz zasad",
             rule_breaker = "Łamacz zasad",
-            legendary = "Legendarny",
+            legendary = "Przepowiednia",
             astronomy = "Astronomia",
             cartomancy = "Kartomancja",
-            clairvoyance = "Jasnowidztwo",
-            extreme_couponer = "Ekstremalny zbieracz kuponów",
+            clairvoyance = "Wizja",
+            extreme_couponer = "Czy już wszystkie masz?",
             completionist = "Pasjonat",
             completionist_plus = "Pasjonat+",
             completionist_plus_plus = "Pasjonat++"
@@ -4114,13 +4113,13 @@ return {
             flushed = "Zagraj kolor za pomocą 5 Dzikich Kart",
             speedrunner = "Wygraj podejście w ciągu 12 rund lub mniej",
             roi = "Kup 5 kuponów przed stawką 4",
-            shattered = "Rozbij 2 Szklane Karty z pojedynczej ręki",
+            shattered = "Zbij 2 szklane karty w trakcie pojedynczego zagrania",
             royale = "Zagraj pokera królewskiego",
             retrograde = "Doprowadź dowolny układ pokerowy do poziomu 10.",
             _10k = "Zdobądź 10 000 żetonów z pojedynczej ręki",
             _1000k = "Zdobądź 1 000 000 żetonów z pojedynczej ręki",
             _100000k = "Zdobądź 100 000 000 żetonów z pojedynczej ręki",
-            tiny_hands = "Odchudź talię do 20 kart lub mniej",
+            tiny_hands = "Przerzedź talię do 20 kart lub mniej",
             big_hands = "Posiadaj w swojej talii 80 kart lub więcej",
             you_get_what_you_get = "Wygraj podejście bez przelosowania podczas wizyty w sklepie",
             rule_bender = "Ukończ dowolne podejście-wyzwanie",
@@ -4190,8 +4189,8 @@ return {
                 "to też był blef?"
             },
             lq_7 = {
-                "Wygląda na to,",
-                "że padliśmy ofiarą własnego żartu!"
+                "Wygląda na to, że padliśmy",
+                "ofiarą własnego żartu!"
             },
             lq_8 = {
                 "Gdybym miał ręce,",
@@ -4232,7 +4231,7 @@ return {
             c_blast_off_1 = "Odlot",
             c_five_card_1 = "Dobierz pięć",
             c_golden_needle_1 = "Złota igła",
-            c_cruelty_1 = "Okrucieństwo",
+            c_cruelty_1 = "Drwina",
             c_jokerless_1 = "Błaznofob"
         }
     }
