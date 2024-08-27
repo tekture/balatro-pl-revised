@@ -768,8 +768,8 @@ return {
                 name = "Matador",
                 text = {
                     "Zyskujesz {C:money}$#1#{},",
-                    "jeśli zagrana",
-                    "ręka aktywuje",
+                    "jeśli zagrany",
+                    "układ aktywuje",
                     "zdolność {C:attention}Bossa{}"
                 },
                 unlock = {
@@ -1416,10 +1416,10 @@ return {
         },
         Voucher = {
             v_overstock_norm = {
-                name = "Nadmiar zapasów",
+                name = "Nadmiar towaru",
                 text = {
                     "{C:attention}+1{} slot na kartę",
-                    "dostępny w sklepie"
+                    "w sklepie (łącznie {C:attention}3{})"
                 }
             },
             v_clearance_sale = {
@@ -1452,7 +1452,7 @@ return {
                 }
             },
             v_reroll_surplus = {
-                name = "Rzuty na zbyciu",
+                name = "Stały klient",
                 text = {
                     "Przelosowania kosztują",
                     "o {C:money}$#1#{} mniej"
@@ -1533,10 +1533,10 @@ return {
                 }
             },
             v_overstock_plus = {
-                name = "Nadmiar zapasów+",
+                name = "Nadmiar towaru+",
                 text = {
                     "{C:attention}+1{} slot na kartę",
-                    "dostępny w sklepie"
+                    "w sklepie (łącznie {C:attention}4{})"
                 },
                 unlock = {
                     "Wydaj łącznie",
@@ -1595,10 +1595,10 @@ return {
                 }
             },
             v_reroll_glut = {
-                name = "Przesyt przelosowań",
+                name = "Jednoręki dobrodziej",
                 text = {
                     "Przelosowania kosztują",
-                    "o {C:money}$#1#{} mniej"
+                    "o {C:attention}kolejne{} {C:money}$#1#{} mniej"
                 },
                 unlock = {
                     "Przelosuj sklep",
@@ -1639,7 +1639,7 @@ return {
                 name = "Tłuste palce",
                 text = {
                     "Zyskujesz na stałe",
-                    "{C:blue}+#1#{} zagrań"
+                    "{C:attention}kolejne{} {C:blue}+#1#{} zagrań"
                 },
                 unlock = {
                     "Zagraj łącznie",
@@ -1651,7 +1651,7 @@ return {
                 name = "Recyklomancja",
                 text = {
                     "Zyskujesz na stałe",
-                    "{C:red}+#1#{} zrzutek"
+                    "{C:attention}kolejne{} {C:red}+#1#{} zrzutek"
                 },
                 unlock = {
                     "Odrzuć łącznie",
@@ -1739,7 +1739,8 @@ return {
             v_palette = {
                 name = "Paleta",
                 text = {
-                    "{C:attention}+#1#{} do rozmiaru ręki"
+                    "{C:attention}+#1#{} do rozmiaru ręki",
+                    "({C:attention}+2{} łącznie z {C:attention}Pędzlem{})"
                 },
                 unlock = {
                     "Zmniejsz rozmiar ręki",
@@ -2343,7 +2344,7 @@ return {
                 text = {
                     "W sklepie pojawiają się",
                     "{C:attention}Tymczasowe{} Jokery",
-                    "{C:inactive,s:0.8}(Osłabiane po 5 rundach)",
+                    "{C:inactive,s:0.8}(Wyłączane po 5 rundach)",
                     "{s:0.8}Zawiera efekty poprzednich stawek"
                 }
             },
@@ -2571,62 +2572,63 @@ return {
             bl_arm = {
                 name = "Ramię",
                 text = {
-                    "Zmniejsza poziom",
+                    "Zmniejsza poziom każdego",
                     "zagranego układu pokerowego"
                 }
             },
             bl_psychic = {
                 name = "Jasnowidz",
                 text = {
-                    "Należy zagrać 5 kart"
+                    "Zagrywasz zawsze",
+                    "5 kart"
                 }
             },
             bl_goad = {
                 name = "Oścień",
                 text = {
                     "Wszystkie piki",
-                    "zostają osłabione"
+                    "zostają wyłączone"
                 }
             },
             bl_water = {
                 name = "Woda",
                 text = {
                     "Rozpoczynasz",
-                    "z 0 zrzutek"
+                    "rundę bez zrzutek"
                 }
             },
             bl_eye = {
                 name = "Oko",
                 text = {
-                    "Brak powtórzenia tych samych",
-                    "układów pokerowych w tej rundzie"
+                    "Nie możesz powtarzać",
+                    "układów pokerowych"
                 }
             },
             bl_mouth = {
                 name = "Usta",
                 text = {
-                    "Zagrywasz tylko 1 układ",
-                    "pokerowy w tej rundzie"
+                    "Zagrywasz ciągle ten",
+                    "sam układ pokerowy"
                 }
             },
             bl_plant = {
                 name = "Roślina",
                 text = {
                     "Wszystkie figury karciane",
-                    "zostają osłabione"
+                    "zostają wyłączone"
                 }
             },
             bl_needle = {
                 name = "Igła",
                 text = {
-                    "Zagrywasz tylko 1 rękę"
+                    "Zagrywasz tylko raz"
                 }
             },
             bl_head = {
                 name = "Głowa",
                 text = {
                     "Wszystkie kiery",
-                    "zostają osłabione"
+                    "zostają wyłączone"
                 }
             },
             bl_tooth = {
@@ -2639,7 +2641,7 @@ return {
             bl_final_leaf = {
                 name = "Zielony liść",
                 text = {
-                    "Wszystkie karty są osłabione",
+                    "Wszystkie karty są wyłączone",
                     "do momentu sprzedania Jokera"
                 }
             },
@@ -2652,7 +2654,8 @@ return {
             bl_ox = {
                 name = "Wół",
                 text = {
-                    "Zagranie #1#",
+                    "Zagranie układu",
+                    "#1#",
                     "ustawia pieniądze na $0"
                 }
             },
@@ -2667,21 +2670,21 @@ return {
                 name = "Maczuga",
                 text = {
                     "Wszystkie trefle",
-                    "zostają osłabione"
+                    "zostają wyłączone"
                 }
             },
             bl_fish = {
                 name = "Ryba",
                 text = {
-                    "Karty są dobierane awersem w dół",
-                    "po każdej zagranej ręce"
+                    "Karty dobierane są awersem",
+                    "w dół po każdym zagraniu"
                 }
             },
             bl_window = {
                 name = "Okno",
                 text = {
                     "Wszystkie karo",
-                    "zostają osłabione"
+                    "zostają wyłączone"
                 }
             },
             bl_manacle = {
@@ -2701,7 +2704,7 @@ return {
                 name = "Filar",
                 text = {
                     "Karty zagrane wcześniej",
-                    "w tym wejściu zostają osłabione"
+                    "w tym wejściu zostają wyłączone"
                 }
             },
             bl_flint = {
@@ -2987,14 +2990,14 @@ return {
                 text = {}
             },
             debuffed_default = {
-                name = "Osłabiona",
+                name = "Wyłączona",
                 text = {
                     "Wszystkie zdolności",
                     "są wyłączone"
                 }
             },
             debuffed_playing_card = {
-                name = "Osłabiona",
+                name = "Wyłączona",
                 text = {
                     "Brak zdobywania żetonów,",
                     "wszystkie zdolności",
@@ -3279,7 +3282,7 @@ return {
             perishable = {
                 name = "Tymczasowy",
                 text = {
-                    "Osłabiony po",
+                    "Wyłączany po",
                     "{C:attention}#1#{} rundach",
                     "{C:inactive}(pozostało: {C:attention}#2#{C:inactive})"
                 }
@@ -3414,8 +3417,8 @@ return {
                 "zagrane z maks. 3 kartami niepunktowanymi"
             },
             ['High Card'] = {
-                "Jeśli zagrywana ręka nie odpowiada powyższym",
-                "rękom, punkty zdobywa się tylko kartami o najwyższej randze"
+                "Jeśli zagrywany układ nie odpowiada powyższym,",
+                "punkty zdobywa tylko karta o najwyższej randze"
             },
             ['Flush Five'] = {
                 "5 kart o tej samej randze i kolorze"
@@ -3523,6 +3526,7 @@ return {
             b_new_run = "Nowa gra",
             b_challenges = "Wyzwania",
             b_current_profile = "Bieżący profil",
+            b_customize_deck="Dostosuj talię",
             b_load_profile = "Wczytaj profil",
             b_create_profile = "Utwórz profil",
             b_delete_profile = "Usuń profil",
@@ -3550,7 +3554,7 @@ return {
             k_uncommon = "Niepospolity",
             k_rare = "Rzadki",
             k_legendary = "Legendarny",
-            k_debuffed = "Osłabiona",
+            k_debuffed = "Wyłączona",
             k_locked = "Zablokowana",
             k_undisovered = "Nieodkryta",
             k_joker = "Joker",
@@ -3582,10 +3586,10 @@ return {
             k_cap_consumables = "PRZEDMIOTY ZUŻYWALNE",
             k_page = "Strona",
             k_ante_cap = "WEJŚCIE",
-            k_base_cap = "BAZOWA",
+            k_base_cap = "BAZA",
             k_jokers_cap = "JOKERY",
             k_vouchers_cap = "KUPONY",
-            k_x_base = "X bazowa",
+            k_x_base = "-krotność bazy",
             k_not_discovered = "Nie odkryto",
             k_unlocked_ex = "Coś nowego!",
             k_challenge_mode = "Wyzwanie",
@@ -3602,7 +3606,7 @@ return {
             k_banned_tags = "Wykluczone piny",
             k_other = "Inne",
             k_money = "Pieniądze",
-            k_best_hand = "Najlepsza ręka",
+            k_best_hand = "Najlepsze zagranie",
             k_seeded_run = "Gra z seedem",
             k_enter_seed = "Wprowadź seed",
             k_lvl = "poz.",
@@ -3616,16 +3620,17 @@ return {
             ph_sneak_peek = "Zapowiedź",
             ph_deck_preview_stones = "Karty Kamienne",
             ph_deck_preview_effective = "Całkowita wartość łączna wynikająca z posiadania jokerów, zakładów i ulepszeń kart",
-            ph_blind_score_at_least = "Zdobądź przynajmniej X pkt.",
+            ph_blind_score_at_least = "Zbierz przynajmniej",
             ph_blind_reward = "Nagroda:",
-            ph_up_ante_1 = "Podnieś stawkę",
-            ph_up_ante_2 = "Podnieś zakłady",
-            ph_up_ante_3 = "Odśwież zakłady",
+            ph_up_ante_1 = "Wejście rośnie",
+            ph_up_ante_2 = "Zakłady rosną",
+            ph_up_ante_3 = "Nowy boss",
             ph_stat_joker = "Łączna liczba rund ukończonych z tą kartą",
             ph_stat_consumable = "Liczba użyć tej karty",
             ph_stat_voucher = "Liczba użyć tego kuponu",
             ph_demo_thanks_1 = "Dziękujemy za grę w",
             ph_demo_thanks_2 = "DEMO BALATRO",
+            ph_display_stickers="Wyświetlaj naklejki na Jokerach podczas gry",
             ph_game_over = "KONIEC GRY",
             ph_vouchers_redeemed = "Kupony wykorzystane w tym podejściu",
             ph_no_vouchers = "Nie wykorzystano kuponów w tym podejściu",
@@ -3635,11 +3640,11 @@ return {
             ph_choose_blind_1 = "Wybierz",
             ph_choose_blind_2 = "kolejny zakład",
             ph_mr_bones = "Kostek cię ocalił",
-            ph_score_at_least = "Zdobądź przynajmniej X pkt.",
-            ph_all_poker_hand = "Wszystkie układy rąk w pokerze",
+            ph_score_at_least = "Zbierz przynajmniej",
+            ph_all_poker_hand = "Wszystkie układy pokerowe",
             ph_1_level = "+1 poziom",
-            ph_boss_disabled = "Boss został wyłączony!",
-            ph_most_played = "(najczęściej zagrywany układ)",
+            ph_boss_disabled = "Boss został osłabiony!",
+            ph_most_played = "[wstaw najczęściej zagrywany układ]",
             ml_demo_thanks_message = {
                 "Rozważ dodanie",
                 "Balatro do listy życzeń na Steam oraz zapisz się",
@@ -3653,7 +3658,7 @@ return {
             ml_gold_seal_desc = {
                 "Złota Pieczęć",
                 "wraca do ręki",
-                "przy zagraniu"
+                "po zagraniu"
             },
             ml_crash_report_info = {
                 "Raporty o błędach będą wysyłane do twórców gry,",
@@ -3707,12 +3712,12 @@ return {
             k_plus_stone = "+1 Karta Kamienna",
             k_plus_planet = "+1 Karta Planeta",
             k_plus_spectral = "+1 Karta Widmo",
-            k_active_ex = "Aktywowane!",
-            k_level_up_ex = "Zwiększono poziom!",
+            k_active_ex = "Aktywny!",
+            k_level_up_ex = "Poziom +1!",
             k_upgrade_ex = "Ulepszone!",
             k_again_ex = "Jeszcze raz!",
-            k_disabled_ex = "Wyłączone!",
-            k_val_up = "Podniesiono wartość!",
+            k_disabled_ex = "Wyłączony!",
+            k_val_up = "Wartość rośnie!",
             k_reset = "Reset",
             k_extinct_ex = "Żegnaj!",
             k_safe_ex = "Tu nic!",
@@ -3737,7 +3742,7 @@ return {
             k_gold = "Złoto",
             k_card_stats = "Statystyki kart",
             k_view = "Podgląd",
-            k_all_hands = "Wszystkie ręce",
+            k_all_hands = "Wszystkie zagrania",
             k_high_score_ex = "Nowy rekord!",
             k_demo_version_ex = "Wersja demo!",
             k_playing_as = "Gram jako",
@@ -3768,7 +3773,7 @@ return {
             k_eaten_ex = "Zjedzone!",
             k_eroded_ex = "Zniszczone!",
             k_achievement = "Osiągnięcie",
-            ph_unscored_hand = "Niepunktująca ręka",
+            ph_unscored_hand = "Niepunktujące zagranie",
             ph_alert_debuff_confirm = "Kliknij ponownie „Zagraj”, aby potwierdzić",
             k_drank_ex = "Wypite!",
             k_trophy = "Trofeum",
@@ -3798,7 +3803,7 @@ return {
             deck_preview_wheel_plural = "Liczby mogą być niższe przez #1# karty dobrane awersem w dół",
             challenges_completed = "Ukończono #1#/#2# wyzwań",
             interest = "#1# odsetek na $#2# (#3# maks.)",
-            remaining_hand_money = "Pozostałe ręce ($#1# każda)",
+            remaining_hand_money = "Pozostałe zagrania ($#1# każde)",
             remaining_discard_money = "Pozostałe zrzutki ($#1# każda)",
             ml_foil_desc = {
                 "W folii",
@@ -3859,7 +3864,7 @@ return {
                 "{C:attention}#1#:{} te {C:attention}zakłady{} nie dają nagrody pieniężnej"
             },
             ch_c_no_extra_hand_money = {
-                "Dodatkowe {C:blue}ręce{} nie zdobywają pieniędzy"
+                "Brak nagrody za niewykorzystane {C:blue}zagrania{}"
             },
             ch_c_no_interest = {
                 "Brak {C:attention}odsetek{} na końcu rundy"
@@ -3868,7 +3873,7 @@ return {
                 "{E:1,s:1.2,C:red}Wyzwanie dnia!"
             },
             ch_c_set_seed = {
-                "1 próba z ustalonym rozstawieniem: {C:inactive}{ukryte}"
+                "Jedno podejście z seedem: {C:inactive}{ukryte}"
             },
             ch_c_chips_dollar_cap = {
                 "{C:blue}Żetony{} nie mogą przekroczyć obecnej wartości {C:money}$"
@@ -3895,7 +3900,7 @@ return {
                 "Jokery już się nie pojawiają podczas wizyty w {C:attention}sklepie"
             },
             ch_c_debuff_played_cards = {
-                "Wszystkie {C:attention}zagrane{} karty zostają {C:attention}osłabione{} po zdobyciu punktów"
+                "Wszystkie {C:attention}zagrane{} karty zostają {C:attention}wyłączone{} po zdobyciu punktów"
             },
             ch_c_set_eternal_ante = {
                 "Gdy w grze ze stawką pokonasz bossa {C:attention}#1#{}, wszystkie Jokery stają się {C:attention}Wieczne"
@@ -4116,9 +4121,9 @@ return {
             shattered = "Zbij 2 szklane karty w trakcie pojedynczego zagrania",
             royale = "Zagraj pokera królewskiego",
             retrograde = "Doprowadź dowolny układ pokerowy do poziomu 10.",
-            _10k = "Zdobądź 10 000 żetonów z pojedynczej ręki",
-            _1000k = "Zdobądź 1 000 000 żetonów z pojedynczej ręki",
-            _100000k = "Zdobądź 100 000 000 żetonów z pojedynczej ręki",
+            _10k = "Zdobądź 10 000 żetonów z pojedynczego zagrania",
+            _1000k = "Zdobądź 1 000 000 żetonów z pojedynczego zagrania",
+            _100000k = "Zdobądź 100 000 000 żetonów z pojedynczego zagrania",
             tiny_hands = "Przerzedź talię do 20 kart lub mniej",
             big_hands = "Posiadaj w swojej talii 80 kart lub więcej",
             you_get_what_you_get = "Wygraj podejście bez przelosowania podczas wizyty w sklepie",
@@ -4233,6 +4238,24 @@ return {
             c_golden_needle_1 = "Złota igła",
             c_cruelty_1 = "Drwina",
             c_jokerless_1 = "Błaznofob"
+        },
+        collabs={
+            Clubs={
+                ["1"]="Domyślne",
+                ["2"]="Vampire Survivors",
+            },
+            Diamonds={
+                ["1"]="Domyślne",
+                ["2"]="DAVE THE DIVER",
+            },
+            Hearts={
+                ["1"]="Domyślne",
+                ["2"]="Among Us",
+            },
+            Spades={
+                ["1"]="Domyślne",
+                ["2"]="Wiedźmin",
+            },
         }
     }
 }

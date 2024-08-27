@@ -1,5 +1,5 @@
-oldtree = require("pl-1-0-0n")
-newtree = require("pl-1-0-1f")
+oldtree = require("pl-1-0-1f-orig")
+newtree = require("pl-new-orig")
 
 function finddiffs(oldtree, newtree, path)
 	for k,v in pairs(newtree) do
