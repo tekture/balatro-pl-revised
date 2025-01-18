@@ -482,7 +482,7 @@ return {
                 name = "Złoty bilet",
                 text = {
                     "Otrzymujesz {C:money}$#1#{} za każdą",
-                    "zagraną {C:attention}złotą{} kartę"
+                    "punktującą {C:attention}złotą{} kartę"
                 },
                 unlock = {
                     "Zagraj dokładnie",
@@ -2215,7 +2215,7 @@ return {
             e_negative_consumable = {
                 name = "Negatyw",
                 text = {
-                    "{C:dark_edition}+#1#{} slot na przedmior zużywalny"
+                    "{C:dark_edition}+#1#{} slot na przedmiot zużywalny"
                 }
             }
         },
@@ -2638,8 +2638,7 @@ return {
                 name = "Wół",
                 text = {
                     "Zagranie układu",
-                    "#1#",
-                    "ustawia pieniądze na $0"
+                    "#1# ustawia pieniądze na $0"
                 }
             },
             bl_house = {
@@ -3760,7 +3759,7 @@ return {
             k_choose = "Wybierz",
             k_achievements_disabled = "Osiągnięcia są wyłączone",
             ph_no_boss_active = "brak aktywnego bossa",
-            ph_you_win = "WYGRYWASZ!",
+            ph_you_win = "ZWYCIĘSTWO!",
             ph_you_win_demo = "WYGRYWASZ W DEMO!",
             ph_defeat_the_boss = "Pokonaj Bossa",
             ph_score_furthest_ante = "Wejście",
