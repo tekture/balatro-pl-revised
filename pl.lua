@@ -94,7 +94,7 @@ return {
                 text = {
                     "Zyskuje bonusowy mnożnik {X:red,C:white}X1",
                     "za każdy pusty slot na {C:attention}jokera{}",
-                    "{C:inactive}(np. {X:inactive,C:white}X4{C:inactive} za 3 puste sloty)",
+                    "{C:inactive,s:0.8}(Joker Szablon traktowany jest jak pusty slot)",
                     "{C:inactive}(obecnie {X:red,C:white} X#1# {C:inactive})"
                 }
             },
@@ -264,7 +264,7 @@ return {
                 }
             },
             j_delayed_grat = {
-                name = "Gratyfikacja z opóźnieniem",
+                name = "Nagroda za cierpliwość",
                 text = {
                     "{C:money}$#1#{} za {C:attention}zrzutkę{} na koniec rundy,",
                     "jeśli nie skorzystano ze zrzutek"
@@ -541,7 +541,7 @@ return {
                 }
             },
             j_troubadour = {
-                name = "Trubadur",
+                name = "Grajek",
                 text = {
                     "{C:attention}+#1#{} do rozmiaru ręki",
                     "{C:blue}-#2#{} do zagrań"
@@ -590,7 +590,7 @@ return {
                 }
             },
             j_hanging_chad = {
-                name = "Na włosku",
+                name = "Nieważna karta",
                 text = {
                     "Aktywuje {C:attention}pierwszą{} kartę",
                     "zdobywającą punkty",
@@ -1262,7 +1262,7 @@ return {
                 }
             },
             j_mail = {
-                name = "Rabat",
+                name = "Reklamacja",
                 text = {
                     "Zdobywasz {C:money}$#1#{} za każdą",
                     "odrzuconą kartę rangi {C:attention}#2#{},",
@@ -1344,7 +1344,7 @@ return {
                 }
             },
             j_trousers = {
-                name = "Zapasowe spodnie",
+                name = "Zapasowe gacie",
                 text = {
                     "Zyskuje {C:mult}+#1#{} do mnożnika, jeśli",
                     "wśród zagranych kart występuje",
@@ -1377,7 +1377,7 @@ return {
                 }
             },
             j_selzer = {
-                name = "Tabletka musująca",
+                name = "Woda gazowana",
                 text = {
                     "Aktywuje ponownie",
                     "wszystkie zagrane karty",
@@ -2697,7 +2697,7 @@ return {
                 }
             },
             bl_mark = {
-                name = "Cel",
+                name = "Znak",
                 text = {
                     "Wszystkie figury karciane są",
                     "dobierane awersem w dół"
@@ -2762,7 +2762,7 @@ return {
                 }
             },
             b_magic = {
-                name = "Magiczna talia",
+                name = "Talia magiczna",
                 text = {
                     "Rozpoczynasz podejście",
                     "z kuponem {C:tarot,T:v_crystal_ball}#1#{}",
@@ -2770,7 +2770,7 @@ return {
                 }
             },
             b_nebula = {
-                name = "Mgławicowa talia",
+                name = "Talia mgławicowa",
                 text = {
                     "Rozpoczynasz podejście z",
                     "kuponem {C:planet,T:v_telescope}#1#{}",
@@ -2778,7 +2778,7 @@ return {
                 }
             },
             b_metal = {
-                name = "Metalowa talia",
+                name = "Talia metalowa",
                 text = {
                     "Rozpoczynasz podejście z {C:attention}#1#",
                     "kartami rozgrywającymi ulepszonymi",
@@ -2786,7 +2786,7 @@ return {
                 }
             },
             b_abandoned = {
-                name = "Porzucona talia",
+                name = "Talia porzucona",
                 text = {
                     "Rozpoczynasz podejście",
                     "bez żadnych {C:attention}figur karcianych"
@@ -2801,21 +2801,21 @@ return {
                 }
             },
             b_rocky = {
-                name = "Skalista talia",
+                name = "Talia skalista",
                 text = {
                     "Rozpoczynasz podejście z {C:attention}#1#",
                     "dodatkowymi {C:attention}kartami kamiennymi"
                 }
             },
             b_braided = {
-                name = "Pleciona talia",
+                name = "Talia pleciona",
                 text = {
                     "Pierwszy zagrany układ",
                     "zostaje ulepszony do {C:attention}poz. 3"
                 }
             },
             b_anaglyph = {
-                name = "Anaglifowa talia",
+                name = "Talia anaglifowa",
                 text = {
                     "Po pokonaniu każdego",
                     "{C:attention}Bossa{} zdobywasz",
@@ -2823,7 +2823,7 @@ return {
                 }
             },
             b_plasma = {
-                name = "Plazmowa talia",
+                name = "Talia plazmowa",
                 text = {
                     "Równoważy {C:blue}żetony{} i",
                     "{C:red}mnożnik{} przy obliczaniu",
@@ -2832,11 +2832,11 @@ return {
                 }
             },
             b_erratic = {
-                name = "Zmienna talia",
+                name = "Talia niestała",
                 text = {
                     "Wszystkie {C:attention}rangi{} i",
                     "{C:attention}kolory{} w talii",
-                    "są przydzielane losowo"
+                    "są przydzielone losowo"
                 }
             },
             b_challenge = {
@@ -2846,7 +2846,7 @@ return {
                 }
             },
             b_ghost = {
-                name = "Talia Widmo",
+                name = "Talia widmo",
                 text = {
                     "Karty {C:spectral}Widmo{} mogą",
                     "pojawiać się w sklepie,",
@@ -2854,7 +2854,7 @@ return {
                 }
             },
             b_zodiac = {
-                name = "Talia Zodiak",
+                name = "Talia zodiak",
                 text = {
                     "Rozpoczynasz podejście z kuponami",
                     "{C:tarot,T:v_tarot_merchant}#1#{},",
@@ -2863,7 +2863,7 @@ return {
                 }
             },
             b_painted = {
-                name = "Malowana talia",
+                name = "Talia malowana",
                 text = {
                     "{C:attention}+#1#{} do rozmiaru ręki",
                     "{C:red}#2#{} slot na jokera"
@@ -3224,7 +3224,7 @@ return {
             pinned_left = {
                 name = "Przypięty",
                 text = {
-                    "Ten joker pozostanie",
+                    "Ten joker pozostaje",
                     "przypięty w pozycji",
                     "najbardziej wysuniętej w lewo"
                 }
@@ -3434,7 +3434,7 @@ return {
             b_use = "UŻYJ",
             b_select = "WYBIERZ",
             b_buy = "KUP",
-            b_redeem = "WYKORZYSTAJ",
+            b_redeem = "POBIERZ",
             b_open = "OTWÓRZ",
             b_and_use = "I UŻYJ",
             b_next_round_1 = "Następna",
@@ -3540,7 +3540,7 @@ return {
             k_rare = "Rzadki",
             k_legendary = "Legendarny",
             k_debuffed = "Wyłączona",
-            k_locked = "Zablokowana",
+            k_locked = "Zablokowane",
             k_undisovered = "Nieodkryta",
             k_joker = "Joker",
             k_voucher = "Kupon",
@@ -3548,7 +3548,7 @@ return {
             k_planet = "Planeta",
             k_dwarf_planet = "Planeta karłowata",
             k_planet_q = "Planeta?",
-            k_spectral = "Karta Widmo",
+            k_spectral = "Widmo",
             k_booster = "Pakiet",
             k_edition = "Wariant",
             k_hud_hands = "Zagrania",
@@ -3560,7 +3560,7 @@ return {
             k_standard_pack = "Pakiet standardowy",
             k_buffoon_pack = "Pakiet błaznów",
             k_enter_text = "Wprowadź tekst",
-            k_defeated_by = "Przegrano z",
+            k_defeated_by = "Przegrano z:",
             k_level_prefix = "poz.",
             k_also_applied = "Zawiera efekty poprzednich stawek",
             k_base_cards = "Karty podstawowe",
@@ -3617,8 +3617,8 @@ return {
             ph_demo_thanks_2 = "DEMO BALATRO",
             ph_display_stickers="Wyświetlaj naklejki na Jokerach podczas gry",
             ph_game_over = "KONIEC GRY",
-            ph_vouchers_redeemed = "Kupony wykorzystane w tym podejściu",
-            ph_no_vouchers = "Nie wykorzystano kuponów w tym podejściu",
+            ph_vouchers_redeemed = "Kupony pobrane w tym podejściu",
+            ph_no_vouchers = "Nie pobierano kuponów w tym podejściu",
             ph_defeat_this_blind_1 = "Wygraj ten zakład,",
             ph_defeat_this_blind_2 = "aby odkryć",
             ph_click_confirm = "Kliknij ponownie, aby potwierdzić",
@@ -3725,7 +3725,7 @@ return {
             k_level_up_ex = "Poziom +1!",
             k_upgrade_ex = "Ulepszone!",
             k_again_ex = "Jeszcze raz!",
-            k_disabled_ex = "Wyłączony!",
+            k_disabled_ex = "Wyłączone!",
             k_val_up = "Wartość rośnie!",
             k_reset = "Reset",
             k_extinct_ex = "Żegnaj!",
@@ -3740,7 +3740,7 @@ return {
             b_reduced_motion = "Nieruchome tło",
             b_set_rumble = "Wibracje kontrolera",
             b_seals = "Pieczęcie",
-            b_new_challenge = "Rozpocznij nowe wyzwanie",
+            b_new_challenge = "Rozpocznij wyzwanie",
             b_unlock_all = "Odblokuj wszystko",
             k_active = "aktywny",
             k_deck = "Talia",
@@ -3752,7 +3752,7 @@ return {
             k_gold = "Złoto",
             k_card_stats = "Statystyki kart",
             k_view = "Podgląd",
-            k_all_hands = "Wszystkie zagrania",
+            k_all_hands = "Wszystkie układy",
             k_high_score_ex = "Nowy rekord!",
             k_demo_version_ex = "Wersja demo!",
             k_playing_as = "Gram jako",
@@ -3886,7 +3886,7 @@ return {
                 "Jedno podejście z seedem: {C:inactive}{ukryte}"
             },
             ch_c_chips_dollar_cap = {
-                "{C:blue}Żetony{} nie mogą przekroczyć obecnej wartości {C:money}$"
+                "{C:blue}Żetony{} w zagraniu są ograniczane do posiadanej ilości {C:money}$"
             },
             ch_c_none = {
                 "{C:inactive}Brak"
@@ -3901,10 +3901,10 @@ return {
                 "Wszystkie zakupione Jokery są {C:eternal}Wieczne{}"
             },
             ch_c_flipped_cards = {
-                "{C:green}1 na #1#{} kart jest dobierana twarzą w dół"
+                "{C:green}1 na #1#{} karty jest dobierana awersem w dół"
             },
             ch_c_minus_hand_size_per_X_dollar = {
-                "Trzymaj {C:red}-1{} kart w ręce za każdego {C:money}$#1#{}, którego masz"
+                "{C:red}-1{} do liczby kart w ręce za każde posiadane {C:money}$#1#{}"
             },
             ch_c_no_shop_jokers = {
                 "Jokery już się nie pojawiają podczas wizyty w {C:attention}sklepie"
@@ -4119,9 +4119,9 @@ return {
             ante_up = "Osiągnij stawkę 4",
             ante_upper = "Osiągnij stawkę 8",
             heads_up = "Wygraj podejście",
-            low_stakes = "Wygraj podejście przynajmniej na poz. trudności Czerwona stawka",
-            mid_stakes = "Wygraj podejście przynajmniej na poz. trudności Czarna stawka",
-            high_stakes = "Wygraj podejście przynajmniej na poz. trudności Złota stawka",
+            low_stakes = "Wygraj podejście na poz. trudności Czerwona stawka",
+            mid_stakes = "Wygraj podejście na poz. trudności Czarna stawka",
+            high_stakes = "Wygraj podejście na poz. trudności Złota stawka",
             card_player = "Zagraj przynajmniej 2500 kart",
             card_discarder = "Odrzuć przynajmniej 2500 kart",
             nest_egg = "Posiadaj $400 lub więcej w trakcie jednego podejścia",
@@ -4137,8 +4137,8 @@ return {
             tiny_hands = "Przerzedź talię do 20 kart lub mniej",
             big_hands = "Posiadaj w swojej talii 80 kart lub więcej",
             you_get_what_you_get = "Wygraj podejście bez przelosowania podczas wizyty w sklepie",
-            rule_bender = "Ukończ dowolne podejście-wyzwanie",
-            rule_breaker = "Ukończ każde podejście-wyzwanie",
+            rule_bender = "Ukończ dowolne wyzwanie",
+            rule_breaker = "Ukończ każde wyzwanie",
             legendary = "Odkryj Legendarnego Jokera",
             astronomy = "Odkryj każdą kartę Planety",
             cartomancy = "Odkryj każdą kartę Tarota",
@@ -4150,28 +4150,27 @@ return {
         },
         quips = {
             wq_1 = {
-                "Udało ci się!"
+                "Mój ty asie!"
             },
             wq_2 = {
-                "Całkiem niezła",
-                "robota!"
+                "Całkiem, całkiem!"
             },
             wq_3 = {
-                "Wygląda na to, że",
-                "to nie był blef!"
+                "A więc to",
+                "nie był blef!"
             },
             wq_4 = {
-                "Wielka szkoda, że",
-                "wszystkie żetony są",
-                "tylko wirtualne..."
+                "Szkoda tylko, że",
+                "wszystkie żetony",
+                "są wirtualne..."
             },
             wq_5 = {
                 "Wygląda na to, że",
                 "nauka nie poszła w las!"
             },
             wq_6 = {
-                "Udało ci się wykonać",
-                "kilka świetnych zagrań!"
+                "Udało ci się",
+                "zachować czujność!"
             },
             wq_7 = {
                 "Dobrze, że",
@@ -4187,24 +4186,24 @@ return {
                 "jak tani garnitur!"
             },
             lq_3 = {
-                "Czas przetasować",
+                "Pora przetasować",
                 "i spróbować jeszcze raz!"
             },
             lq_4 = {
-                "Wiesz jak to jest,",
+                "Oj, wiesz jak to jest,",
                 "kasyno zawsze wygrywa!"
             },
             lq_5 = {
-                "Wygląda na to,",
-                "że wiemy, kto",
-                "jest prawdziwym Jokerem!"
+                "Wygląda na to",
+                "że wiemy, kto jest",
+                "prawdziwym błaznem!"
             },
             lq_6 = {
-                "No nie,",
-                "to też był blef?"
+                "No nie, to",
+                "też był blef?"
             },
             lq_7 = {
-                "Wygląda na to, że padliśmy",
+                "Chyba padliśmy",
                 "ofiarą własnego żartu!"
             },
             lq_8 = {
@@ -4213,18 +4212,17 @@ return {
                 "teraz oczy!"
             },
             lq_9 = {
-                "Nie mam zbyt dużo",
-                "oleju w głowie, jaka",
-                "jest twoja wymówka?"
+                "Ja jestem tylko",
+                "błaznem, a jaką ty",
+                "masz wymówkę?"
             },
             lq_10 = {
-                "Co za wpadka!"
+                "Ale wpadka!"
             },
             dq_1 = {
-                "Aj! Mam nadzieję,",
-                "że masz kilka asów",
-                "w rękawie na",
-                "ostatnie wyzwanie!"
+                "Aj! Liczę, że masz kilka",
+                "asów w rękawie na to",
+                "ostatnie wyzwanie?"
             }
         },
         challenge_names = {
